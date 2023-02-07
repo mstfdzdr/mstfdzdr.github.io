@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>PHP - Kategori - mustafa dizdar - blog</title>
+        <link>https://dizdar.dev/categories/php/</link>
+        <description>PHP - Kategori - mustafa dizdar - blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Tue, 07 Feb 2023 15:46:21 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/categories/php/" rel="self" type="application/rss+xml" /><item>
+    <title>Apple Silicon işlemcili bilgisayarda PHP ve XDebug kurulumu macerası</title>
+    <link>https://dizdar.dev/apple-silicon-uzerinde-php-xdebug-kurulumu/</link>
+    <pubDate>Tue, 07 Feb 2023 15:46:21 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/apple-silicon-uzerinde-php-xdebug-kurulumu/</guid>
+    <description><![CDATA[<p>Geçenlerde Laravel projelerine merak sardım. Hızlıca auth sistemleri oluşturmak, direkt rest api destekli kod yazmak epey keyifli. Neyse bu başka yazıların konusu.
+Laravel yazarken debug yapmak için <em><strong>dd</strong></em> ya da <em><strong>ddd</strong></em> yapmak epey işlevsel sonuçlar döndürüyor ama yine de insan IDE içerisinden debug pointler ile akışı takip etme ihtiyacı
+duyuyor. Bunun için de XDebug kurmak gerekliymiş.</p>]]></description>
+</item>
+</channel>
+</rss>

@@ -3,7 +3,17 @@
         <title>Tüm İçerikler - mustafa dizdar - blog</title>
         <link>https://dizdar.dev/posts/</link>
         <description>Tüm İçerikler | mustafa dizdar - blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Fri, 27 Jan 2023 14:57:05 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Tue, 07 Feb 2023 15:46:21 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Apple Silicon işlemcili bilgisayarda PHP ve XDebug kurulumu macerası</title>
+    <link>https://dizdar.dev/apple-silicon-uzerinde-php-xdebug-kurulumu/</link>
+    <pubDate>Tue, 07 Feb 2023 15:46:21 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/apple-silicon-uzerinde-php-xdebug-kurulumu/</guid>
+    <description><![CDATA[<p>Geçenlerde Laravel projelerine merak sardım. Hızlıca auth sistemleri oluşturmak, direkt rest api destekli kod yazmak epey keyifli. Neyse bu başka yazıların konusu.
+Laravel yazarken debug yapmak için <em><strong>dd</strong></em> ya da <em><strong>ddd</strong></em> yapmak epey işlevsel sonuçlar döndürüyor ama yine de insan IDE içerisinden debug pointler ile akışı takip etme ihtiyacı
+duyuyor. Bunun için de XDebug kurmak gerekliymiş.</p>]]></description>
+</item>
+<item>
     <title>Windows Terminal’den uygulama güncellemek</title>
     <link>https://dizdar.dev/windows-terminalden-uygulama-guncellemek/</link>
     <pubDate>Fri, 27 Jan 2023 14:57:05 &#43;0300</pubDate>
@@ -82,14 +92,6 @@ Yazının bundan sonrası esasında bir anlamda kendime sonraki kurulumlarda reh
     <author>mstfdzdr</author>
     <guid>https://dizdar.dev/yuksek-lisans-bitti-doktoraya-basladim/</guid>
     <description><![CDATA[<p>Son blog girdisinden bu yana epey vakit geçmiş. Aslında planım bu yönde değildi burayı ayağa kaldırdığımda. Bu yazıda hem bu uzun aradan hem de bu aranın oluşma sebebi olan eğitim hayatımdaki gelişmelerden bahsetmek istiyorum.</p>]]></description>
-</item>
-<item>
-    <title>CSS temel ölçü birimleri</title>
-    <link>https://dizdar.dev/css-temel-olcu-birimleri/</link>
-    <pubDate>Fri, 18 Dec 2020 03:45:13 &#43;0300</pubDate>
-    <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/css-temel-olcu-birimleri/</guid>
-    <description><![CDATA[<p>Hiç bi zaman aram iyi olmadı CSS ile ta ki <a href="https://ademilter.com/" target="_blank" rel="noopener noreffer ">Adem İlter</a>&lsquo;i takip edene kadar :) Hem öğreniyorum hem de kendime not olsun diye buraya bırakayım.</p>]]></description>
 </item>
 </channel>
 </rss>
