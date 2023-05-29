@@ -3,7 +3,24 @@
         <title>Tüm İçerikler - mustafa dizdar - blog</title>
         <link>https://dizdar.dev/posts/</link>
         <description>Tüm İçerikler | mustafa dizdar - blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Tue, 07 Feb 2023 15:46:21 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Mon, 29 May 2023 11:01:51 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Visual Studio Code&#39;a Özel Tuş Kombinasyonları Atama</title>
+    <link>https://dizdar.dev/visual-studio-code-ozel-tus-kombinasyonlari-atama/</link>
+    <pubDate>Mon, 29 May 2023 11:01:51 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/visual-studio-code-ozel-tus-kombinasyonlari-atama/</guid>
+    <description><![CDATA[<p>Jetbrains IDE&rsquo;lerine alışkın olanların çok sık kullandığı tuş kombinaslarından biri SHIFT tuşuna iki kere basmaktır. Bu alışkanlığımıza Visual Studio Code&rsquo;da da devam edebiliriz.</p>]]></description>
+</item>
+<item>
+    <title>Nginx - 413 Request Entity Too Large Hatası</title>
+    <link>https://dizdar.dev/nginx-413-request-entity-too-large-hatasi/</link>
+    <pubDate>Mon, 29 May 2023 10:52:10 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/nginx-413-request-entity-too-large-hatasi/</guid>
+    <description><![CDATA[<p>Ubuntu server üzerinde çalışan bir uygulamamda klasik CRUD işlemleri yapılırken, form data ile giden veriler sonunda başlıktaki hatayı aldım. Kullanıcı sisteme 1.2MB büyüklüğünde bir PDF
+yüklemeye çalışmış.</p>]]></description>
+</item>
+<item>
     <title>Apple Silicon işlemcili bilgisayarda PHP ve XDebug kurulumu macerası</title>
     <link>https://dizdar.dev/apple-silicon-uzerinde-php-xdebug-kurulumu/</link>
     <pubDate>Tue, 07 Feb 2023 15:46:21 &#43;0300</pubDate>
@@ -73,25 +90,6 @@ olsam teyit etmek amaçlı dokümantasyonlardan kontrol ediyorum. Bu yüzden der
     <description><![CDATA[Bir önceki yazımda belirttiğim Windows’ta koyu/açık tema ayarını otomatikleştirdikten sonra Visual Studio Code için de bu özellik bir ihtiyaç haline geldi. Gün içinde yansımaları vb. engellemek gece ise gözümüzü daha az yormak için bunu nasıl yapabiliriz diye araştırırken meğer Visual Studio Code’un kendi içinde böyle bir ayar olduğunu fark ettim.
 Peki nasıl yapacağız? Visual Studio Code’da ayarları açıp, arama kutusuna auto detect yazarak aratalım.
 Yukarıdaki görselde görüleceği üzere gelen ayarlardan Windows: Auto Detect Color Scheme seçeneğini işaretleyelim.]]></description>
-</item>
-<item>
-    <title>Ubuntu üzerinde web geliştirici ortamı kurmak</title>
-    <link>https://dizdar.dev/ubuntu-uzerinde-web-gelistirici-ortami-kurmak/</link>
-    <pubDate>Sat, 12 Jun 2021 13:23:30 &#43;0300</pubDate>
-    <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/ubuntu-uzerinde-web-gelistirici-ortami-kurmak/</guid>
-    <description><![CDATA[<p>Ara ara live usb ya da virtual machine üzerinden deneyimlerim olsa da kalıcı olarak Linux kullanma fırsatım olmamıştı.
-Geçtiğimiz senenin sonunda nihayet bir masaüstü bilgisayar alınca notebooku farklı işletim sistemleri test etmek amaçlı kullanmaya başladım.</p>
-<p>Amacım macOS’a ulaşamayan içimdeki junior developer’ı Windows‘a göre daha rahat edebileceğim bir ortamda kodlamak için Ubuntu kurmak idi.
-Yazının bundan sonrası esasında bir anlamda kendime sonraki kurulumlarda rehber şeklinde 🙂</p>]]></description>
-</item>
-<item>
-    <title>Yüksek Lisans&#39;ı tamamladım. Doktora&#39;ya başladım!</title>
-    <link>https://dizdar.dev/yuksek-lisans-bitti-doktoraya-basladim/</link>
-    <pubDate>Thu, 01 Apr 2021 02:06:29 &#43;0300</pubDate>
-    <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/yuksek-lisans-bitti-doktoraya-basladim/</guid>
-    <description><![CDATA[<p>Son blog girdisinden bu yana epey vakit geçmiş. Aslında planım bu yönde değildi burayı ayağa kaldırdığımda. Bu yazıda hem bu uzun aradan hem de bu aranın oluşma sebebi olan eğitim hayatımdaki gelişmelerden bahsetmek istiyorum.</p>]]></description>
 </item>
 </channel>
 </rss>

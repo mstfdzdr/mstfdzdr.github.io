@@ -2,44 +2,48 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://dizdar.dev/apple-silicon-uzerinde-php-xdebug-kurulumu/</loc><lastmod>2023-02-07T15:46:21&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://dizdar.dev/categories/</loc><lastmod>2023-02-07T15:46:21&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://dizdar.dev/</loc><lastmod>2023-02-07T15:46:21&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://dizdar.dev/categories/php/</loc><lastmod>2023-02-07T15:46:21&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://dizdar.dev/tags/php-debugger/</loc><lastmod>2023-02-07T15:46:21&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://dizdar.dev/posts/</loc><lastmod>2023-02-07T15:46:21&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://dizdar.dev/tags/</loc><lastmod>2023-02-07T15:46:21&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://dizdar.dev/tags/xdebug/</loc><lastmod>2023-02-07T15:46:21&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://dizdar.dev/tags/cmd/</loc><lastmod>2023-01-27T14:57:05&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/categories/nas%C4%B1l-yap%C4%B1l%C4%B1r/</loc><lastmod>2023-01-30T16:06:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/tags/terminal/</loc><lastmod>2023-01-27T14:57:05&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/windows-terminalden-uygulama-guncellemek/</loc><lastmod>2023-01-27T14:57:05&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/categories/flutter/</loc><lastmod>2023-01-27T14:15:22&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/flutter-telefon-aramasi-yaptirmak/</loc><lastmod>2023-01-27T14:15:22&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/tags/mobil-programlama/</loc><lastmod>2023-01-27T14:15:22&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/categories/django/</loc><lastmod>2023-01-27T13:52:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/tags/python/</loc><lastmod>2023-01-27T13:52:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/yeni-django-projesine-baslamak/</loc><lastmod>2023-01-27T13:52:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/categories/python/</loc><lastmod>2023-01-27T13:49:23&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/python-ayin-son-gununu-bulmak/</loc><lastmod>2023-01-27T13:49:23&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/django-veritabanini-resetlemek/</loc><lastmod>2023-01-27T13:41:55&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/about/</loc><lastmod>2023-01-27T13:41:55&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/categories/mustafa-dizdar-kimdir/</loc><lastmod>2023-01-27T13:41:55&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/tags/mongodb/</loc><lastmod>2023-01-27T13:25:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/mongodb-ye-uzaktan-erisim-vermek/</loc><lastmod>2023-01-27T13:25:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/tags/remote-access/</loc><lastmod>2023-01-27T13:25:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/categories/veritaban%C4%B1/</loc><lastmod>2023-01-27T13:25:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/vs-code-koyu-acik-tema-ayari-yapmak/</loc><lastmod>2023-01-30T16:06:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/tags/apache/</loc><lastmod>2023-01-30T13:23:30&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/categories/linux/</loc><lastmod>2023-01-30T13:23:30&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/tags/localhost/</loc><lastmod>2023-01-30T13:23:30&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/tags/php/</loc><lastmod>2023-01-30T13:23:30&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/tags/ubuntu/</loc><lastmod>2023-01-30T13:23:30&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/ubuntu-uzerinde-web-gelistirici-ortami-kurmak/</loc><lastmod>2023-01-30T13:23:30&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://dizdar.dev/categories/</loc><lastmod>2023-05-29T11:01:51&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/</loc><lastmod>2023-05-29T11:01:51&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/categories/nas%C4%B1l-yap%C4%B1l%C4%B1r/</loc><lastmod>2023-05-29T11:01:51&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/posts/</loc><lastmod>2023-05-29T11:01:51&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/tags/</loc><lastmod>2023-05-29T11:01:51&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/tags/visual-studio-code/</loc><lastmod>2023-05-29T11:01:51&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/visual-studio-code-ozel-tus-kombinasyonlari-atama/</loc><lastmod>2023-05-29T11:01:51&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/categories/linux/</loc><lastmod>2023-05-29T10:52:10&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/tags/nginx/</loc><lastmod>2023-05-29T10:52:10&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/nginx-413-request-entity-too-large-hatasi/</loc><lastmod>2023-05-29T10:52:10&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/tags/ubuntu/</loc><lastmod>2023-05-29T10:52:10&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/apple-silicon-uzerinde-php-xdebug-kurulumu/</loc><lastmod>2023-02-07T15:46:21&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/categories/php/</loc><lastmod>2023-02-07T15:46:21&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/tags/php-debugger/</loc><lastmod>2023-02-07T15:46:21&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/tags/xdebug/</loc><lastmod>2023-02-07T15:46:21&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/tags/cmd/</loc><lastmod>2023-01-27T14:57:05&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/tags/terminal/</loc><lastmod>2023-01-27T14:57:05&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/windows-terminalden-uygulama-guncellemek/</loc><lastmod>2023-01-27T14:57:05&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/categories/flutter/</loc><lastmod>2023-01-27T14:15:22&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/flutter-telefon-aramasi-yaptirmak/</loc><lastmod>2023-01-27T14:15:22&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/tags/mobil-programlama/</loc><lastmod>2023-01-27T14:15:22&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/categories/django/</loc><lastmod>2023-01-27T13:52:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/tags/python/</loc><lastmod>2023-01-27T13:52:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/yeni-django-projesine-baslamak/</loc><lastmod>2023-01-27T13:52:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/categories/python/</loc><lastmod>2023-01-27T13:49:23&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/python-ayin-son-gununu-bulmak/</loc><lastmod>2023-01-27T13:49:23&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/django-veritabanini-resetlemek/</loc><lastmod>2023-01-27T13:41:55&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/about/</loc><lastmod>2023-01-27T13:41:55&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/categories/mustafa-dizdar-kimdir/</loc><lastmod>2023-01-27T13:41:55&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/tags/mongodb/</loc><lastmod>2023-01-27T13:25:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/mongodb-ye-uzaktan-erisim-vermek/</loc><lastmod>2023-01-27T13:25:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/tags/remote-access/</loc><lastmod>2023-01-27T13:25:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/categories/veritaban%C4%B1/</loc><lastmod>2023-01-27T13:25:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/vs-code-koyu-acik-tema-ayari-yapmak/</loc><lastmod>2023-01-30T16:06:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/tags/apache/</loc><lastmod>2023-01-30T13:23:30&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/tags/localhost/</loc><lastmod>2023-01-30T13:23:30&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/tags/php/</loc><lastmod>2023-01-30T13:23:30&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/ubuntu-uzerinde-web-gelistirici-ortami-kurmak/</loc><lastmod>2023-01-30T13:23:30&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/categories/bilgisayar-ve-%C3%B6%C4%9Fretim-teknolojileri/</loc><lastmod>2021-04-01T02:06:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/tags/b%C3%B6te-doktora/</loc><lastmod>2021-04-01T02:06:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/tags/b%C3%B6te-y%C3%BCksek-lisans/</loc><lastmod>2021-04-01T02:06:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://dizdar.dev/categories/ki%C5%9Fisel/</loc><lastmod>2023-01-30T20:36:23&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://dizdar.dev/categories/ki%C5%9Fisel/</loc><lastmod>2023-01-30T20:36:23&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/tags/lisans%C3%BCst%C3%BC-e%C4%9Fitim/</loc><lastmod>2021-04-01T02:06:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/yuksek-lisans-bitti-doktoraya-basladim/</loc><lastmod>2021-04-01T02:06:29&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/categories/css/</loc><lastmod>2020-12-18T03:45:13&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -64,6 +68,6 @@
             <loc>https://dizdar.dev/whatsapp-yedegi-drivedan-nasil-silinir/</loc><lastmod>2020-11-11T15:55:03&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/merhaba-hugo/</loc><lastmod>2020-11-11T01:43:26&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/tags/mustafa-dizdar/</loc><lastmod>2020-11-11T01:43:26&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://dizdar.dev/tags/elektronik-oy-kullanma-cihaz%C4%B1/</loc><lastmod>2023-01-30T20:36:23&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/tags/reymatik/</loc><lastmod>2023-01-30T20:36:23&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/reymatik/</loc><lastmod>2023-01-30T20:36:23&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url></urlset>
+            <loc>https://dizdar.dev/tags/elektronik-oy-kullanma-cihaz%C4%B1/</loc><lastmod>2023-01-30T20:36:23&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/tags/reymatik/</loc><lastmod>2023-01-30T20:36:23&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://dizdar.dev/reymatik/</loc><lastmod>2023-01-30T20:36:23&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

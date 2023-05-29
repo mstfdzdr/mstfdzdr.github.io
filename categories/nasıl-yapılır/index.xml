@@ -3,7 +3,15 @@
         <title>Nasıl Yapılır - Kategori - mustafa dizdar - blog</title>
         <link>https://dizdar.dev/categories/nas%C4%B1l-yap%C4%B1l%C4%B1r/</link>
         <description>Nasıl Yapılır - Kategori - mustafa dizdar - blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Fri, 27 Jan 2023 14:57:05 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/categories/nas%C4%B1l-yap%C4%B1l%C4%B1r/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Mon, 29 May 2023 11:01:51 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/categories/nas%C4%B1l-yap%C4%B1l%C4%B1r/" rel="self" type="application/rss+xml" /><item>
+    <title>Visual Studio Code&#39;a Özel Tuş Kombinasyonları Atama</title>
+    <link>https://dizdar.dev/visual-studio-code-ozel-tus-kombinasyonlari-atama/</link>
+    <pubDate>Mon, 29 May 2023 11:01:51 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/visual-studio-code-ozel-tus-kombinasyonlari-atama/</guid>
+    <description><![CDATA[<p>Jetbrains IDE&rsquo;lerine alışkın olanların çok sık kullandığı tuş kombinaslarından biri SHIFT tuşuna iki kere basmaktır. Bu alışkanlığımıza Visual Studio Code&rsquo;da da devam edebiliriz.</p>]]></description>
+</item>
+<item>
     <title>Windows Terminal’den uygulama güncellemek</title>
     <link>https://dizdar.dev/windows-terminalden-uygulama-guncellemek/</link>
     <pubDate>Fri, 27 Jan 2023 14:57:05 &#43;0300</pubDate>

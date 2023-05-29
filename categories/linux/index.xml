@@ -3,7 +3,16 @@
         <title>Linux - Kategori - mustafa dizdar - blog</title>
         <link>https://dizdar.dev/categories/linux/</link>
         <description>Linux - Kategori - mustafa dizdar - blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Sat, 12 Jun 2021 13:23:30 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/categories/linux/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Mon, 29 May 2023 10:52:10 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/categories/linux/" rel="self" type="application/rss+xml" /><item>
+    <title>Nginx - 413 Request Entity Too Large Hatası</title>
+    <link>https://dizdar.dev/nginx-413-request-entity-too-large-hatasi/</link>
+    <pubDate>Mon, 29 May 2023 10:52:10 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/nginx-413-request-entity-too-large-hatasi/</guid>
+    <description><![CDATA[<p>Ubuntu server üzerinde çalışan bir uygulamamda klasik CRUD işlemleri yapılırken, form data ile giden veriler sonunda başlıktaki hatayı aldım. Kullanıcı sisteme 1.2MB büyüklüğünde bir PDF
+yüklemeye çalışmış.</p>]]></description>
+</item>
+<item>
     <title>Ubuntu üzerinde web geliştirici ortamı kurmak</title>
     <link>https://dizdar.dev/ubuntu-uzerinde-web-gelistirici-ortami-kurmak/</link>
     <pubDate>Sat, 12 Jun 2021 13:23:30 &#43;0300</pubDate>

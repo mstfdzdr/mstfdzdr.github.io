@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>visual studio code - Etiket - mustafa dizdar - blog</title>
+        <link>https://dizdar.dev/tags/visual-studio-code/</link>
+        <description>visual studio code - Etiket - mustafa dizdar - blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Mon, 29 May 2023 11:01:51 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/tags/visual-studio-code/" rel="self" type="application/rss+xml" /><item>
+    <title>Visual Studio Code&#39;a Özel Tuş Kombinasyonları Atama</title>
+    <link>https://dizdar.dev/visual-studio-code-ozel-tus-kombinasyonlari-atama/</link>
+    <pubDate>Mon, 29 May 2023 11:01:51 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/visual-studio-code-ozel-tus-kombinasyonlari-atama/</guid>
+    <description><![CDATA[<p>Jetbrains IDE&rsquo;lerine alışkın olanların çok sık kullandığı tuş kombinaslarından biri SHIFT tuşuna iki kere basmaktır. Bu alışkanlığımıza Visual Studio Code&rsquo;da da devam edebiliriz.</p>]]></description>
+</item>
+</channel>
+</rss>
