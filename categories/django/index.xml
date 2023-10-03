@@ -3,7 +3,24 @@
         <title>Django - Kategori - mustafa dizdar - blog</title>
         <link>https://dizdar.dev/categories/django/</link>
         <description>Django - Kategori - mustafa dizdar - blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Fri, 27 Jan 2023 13:52:29 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/categories/django/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Mon, 30 Jan 2023 16:16:22 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/categories/django/" rel="self" type="application/rss+xml" /><item>
+    <title>Django, DEBUG:False Durumunda Statik Dosyaları Göstermeme Sorunu</title>
+    <link>https://dizdar.dev/django-debug-false-durumunda-statik-dosyalari-gostermeme-sorunu/</link>
+    <pubDate>Mon, 30 Jan 2023 16:16:22 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/django-debug-false-durumunda-statik-dosyalari-gostermeme-sorunu/</guid>
+    <description><![CDATA[Herkese selam, işim sebebiyle bu aralar sık sık Django kurcalıyorum. Tabii hobi amaçlı geliştirilen yazılımlar genelde lokalde ve tıkır tıkır çalışıyor. Çünkü projeyi public yapma derdin yok, güvenlik sıkıntın yok vs. İşte geliştirdiğimiz uygulamaları bir serverda ayağa kaldırdığımız için projeyi debug moddan çıkarmak gibi bazı aksiyonlar gerekiyor.
+E normali bu! Kesinlikle katılıyorum normali bu, böyle olmalı ama daha önce hep lokalde çalışınca debug:false durumlarını test etmemiş oluyor insan 🙂 Proje bitti, hadi servera atalım, dur atmadan da debug:false yapalım diyorsun ve taa daa!]]></description>
+</item>
+<item>
+    <title>Django’da görüntülenen sayfanın linkine active class’ı ekleme</title>
+    <link>https://dizdar.dev/django-da-goruntulenen-sayfanin-linkine-active-classi-ekleme/</link>
+    <pubDate>Mon, 30 Jan 2023 16:12:08 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/django-da-goruntulenen-sayfanin-linkine-active-classi-ekleme/</guid>
+    <description><![CDATA[<p>Kullanıcıların hangi sayfada olduğunu görsel olarak da bilmeye hakkı var değil mi? 🙂 Nasıl yapılır diye araştırırken Django’nun bunu url name’leri ile hallettiğini öğrendim.</p>]]></description>
+</item>
+<item>
     <title>Yeni Django Projesine Başlamak</title>
     <link>https://dizdar.dev/yeni-django-projesine-baslamak/</link>
     <pubDate>Fri, 27 Jan 2023 13:52:29 &#43;0300</pubDate>
@@ -19,6 +36,16 @@ olsam teyit etmek amaçlı dokümantasyonlardan kontrol ediyorum. Bu yüzden der
     <author>mstfdzdr</author>
     <guid>https://dizdar.dev/django-veritabanini-resetlemek/</guid>
     <description><![CDATA[<p>Bir proje olgunlaşırken gerek db model üzerinden gerekse data üzerinde sürekli değişiklikler oluyor ve bir yerden sonra test için veri çok anlamsız hâle gelebiliyor. Bu gibi durumlarda veritabanınızı resetlemek (sıfırlamak) ihtiyacı doğabilir. Bunun için birkaç farklı yöntem bulunuyor.</p>]]></description>
+</item>
+<item>
+    <title>Django Projesine Google Captcha Ekleme</title>
+    <link>https://dizdar.dev/django-projesine-google-captcha-ekleme/</link>
+    <pubDate>Tue, 19 Oct 2021 15:58:12 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/django-projesine-google-captcha-ekleme/</guid>
+    <description><![CDATA[Öncelikle Google Captcha adresine gidip dökümantasyon kısmına ulaşalım. Burada kullanabileceğimiz iki versiyon (reCAPTCHA v2 ve reCAPTCHA v3) bulunmakta. Ben klasik “ben robot değilim” butonu şeklinde ekleme yapmak istediğim için reCAPTCHAv2’yi kullanacağım.
+reCAPTCHA Admin‘e tıklayarak gerekli alanları dolduralım. Bunlar site yönetici e-postaları, kontrol edilecek domainler vb. Daha sonra Google bize iki adet KEY verecek. Bunlardan biri front-end için diğeri yani SECRET KEY yazan ise back-end için.
+Projemizin captcha kontrolü nerede yapmasını istiyorsak o sayfanın templates klasöründeki html dosyasına gelip uygun bir yere aşağıdaki html kodunu yerleştirmeli ve data-sitekey özelliğini kendi keyiniz ile doldurmalısınız.]]></description>
 </item>
 </channel>
 </rss>

@@ -4,36 +4,36 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Windows Terminal’den uygulama güncellemek - mustafa dizdar - blog</title><meta name="Description" content="mustafa dizdar blog"><meta property="og:title" content="Windows Terminal’den uygulama güncellemek" />
-<meta property="og:description" content="Ubuntu kullananlar bilir, apt update ve apt upgrade çok sık yazdığımız komutlardır. Bunlar uygulamaları güncellemek için kullanılır. Malum Windows son zamanlarda WSL falan derken epey yanladı Linux cephesine 🙂 Şimdi de bu komut satırından güncelleme topuna girmiş gibi görünüyor.
-Nasıl yapıyoruz peki? Powershell’i açıp, “winget upgrade” yazıp enter’layın." />
+        <title>Windows’ta otomatik koyu mod özelliğini kullanmak - mustafa dizdar - blog</title><meta name="Description" content="mustafa dizdar blog"><meta property="og:title" content="Windows’ta otomatik koyu mod özelliğini kullanmak" />
+<meta property="og:description" content="Malum bu koyu mod/açık mod mevzusu telefonlarla epey hayatımıza girdi çok da ihtiyaç olan güzel bir özellik olarak elzem ihtiyaçlardan biri haline geldi. Windows 10’da bunu otomatik yapamayan Microsoft, sağ olsun Windows 11’de de bu özelliği sisteme entegre etmemiş. Peki otomatik olarak koyu mod/açık mod geçişi yapmak için ne yapacağız?
+Tam bu noktada Microsoft Store içerisindeki, Auto Dark Mode isimli yazılım imdadımıza yetişiyor. Store’a girip, auto dark mode diye arattığımzda yazılıma erişebiliyoruz." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://dizdar.dev/windows-terminalden-uygulama-guncellemek/" /><meta property="og:image" content="https://dizdar.dev/logo.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-01-27T14:57:05+03:00" />
-<meta property="article:modified_time" content="2023-01-27T14:57:05+03:00" /><meta property="og:site_name" content="My cool site" />
+<meta property="og:url" content="https://dizdar.dev/windowsta-otomatik-koyu-mod-ozelligini-kullanmak/" /><meta property="og:image" content="https://dizdar.dev/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-11-27T16:03:09+03:00" />
+<meta property="article:modified_time" content="2023-01-30T16:03:09+03:00" /><meta property="og:site_name" content="My cool site" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://dizdar.dev/logo.png"/>
 
-<meta name="twitter:title" content="Windows Terminal’den uygulama güncellemek"/>
-<meta name="twitter:description" content="Ubuntu kullananlar bilir, apt update ve apt upgrade çok sık yazdığımız komutlardır. Bunlar uygulamaları güncellemek için kullanılır. Malum Windows son zamanlarda WSL falan derken epey yanladı Linux cephesine 🙂 Şimdi de bu komut satırından güncelleme topuna girmiş gibi görünüyor.
-Nasıl yapıyoruz peki? Powershell’i açıp, “winget upgrade” yazıp enter’layın."/>
+<meta name="twitter:title" content="Windows’ta otomatik koyu mod özelliğini kullanmak"/>
+<meta name="twitter:description" content="Malum bu koyu mod/açık mod mevzusu telefonlarla epey hayatımıza girdi çok da ihtiyaç olan güzel bir özellik olarak elzem ihtiyaçlardan biri haline geldi. Windows 10’da bunu otomatik yapamayan Microsoft, sağ olsun Windows 11’de de bu özelliği sisteme entegre etmemiş. Peki otomatik olarak koyu mod/açık mod geçişi yapmak için ne yapacağız?
+Tam bu noktada Microsoft Store içerisindeki, Auto Dark Mode isimli yazılım imdadımıza yetişiyor. Store’a girip, auto dark mode diye arattığımzda yazılıma erişebiliyoruz."/>
 <meta name="application-name" content="mstfdzdr">
 <meta name="apple-mobile-web-app-title" content="mstfdzdr"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://dizdar.dev/windows-terminalden-uygulama-guncellemek/" /><link rel="prev" href="https://dizdar.dev/flutter-telefon-aramasi-yaptirmak/" /><link rel="next" href="https://dizdar.dev/django-da-goruntulenen-sayfanin-linkine-active-classi-ekleme/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://dizdar.dev/windowsta-otomatik-koyu-mod-ozelligini-kullanmak/" /><link rel="prev" href="https://dizdar.dev/vs-code-koyu-acik-tema-ayari-yapmak/" /><link rel="next" href="https://dizdar.dev/mongodb-ye-uzaktan-erisim-vermek/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Windows Terminal’den uygulama güncellemek",
+        "headline": "Windows’ta otomatik koyu mod özelliğini kullanmak",
         "inLanguage": "tr",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/dizdar.dev\/windows-terminalden-uygulama-guncellemek\/"
-        },"genre": "posts","keywords": "terminal, cmd","wordcount":  48 ,
-        "url": "https:\/\/dizdar.dev\/windows-terminalden-uygulama-guncellemek\/","datePublished": "2023-01-27T14:57:05+03:00","dateModified": "2023-01-27T14:57:05+03:00","publisher": {
+            "@id": "https:\/\/dizdar.dev\/windowsta-otomatik-koyu-mod-ozelligini-kullanmak\/"
+        },"genre": "posts","keywords": "windows, dark theme","wordcount":  95 ,
+        "url": "https:\/\/dizdar.dev\/windowsta-otomatik-koyu-mod-ozelligini-kullanmak\/","datePublished": "2021-11-27T16:03:09+03:00","dateModified": "2023-01-30T16:03:09+03:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -101,41 +101,48 @@ Nasıl yapıyoruz peki? Powershell’i açıp, “winget upgrade” yazıp enter
     <div class="search-dropdown mobile">
         <div id="search-dropdown-mobile"></div>
     </div><main class="main">
-                <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Windows Terminal’den uygulama güncellemek</h1><div class="post-meta">
+                <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Windows’ta otomatik koyu mod özelliğini kullanmak</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>mstfdzdr</a></span>&nbsp;<span class="post-category"><a href="/categories/nas%C4%B1l-yap%C4%B1l%C4%B1r/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Nasıl Yapılır</a> kategorileri içinde</span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="01/27/2023">01/27/2023</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;48 kelime&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="11/27/2021">11/27/2021</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;95 kelime&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;Bir dakika&nbsp;</div>
-        </div><div class="content" id="content"><p>Ubuntu kullananlar bilir, apt update ve apt upgrade çok sık yazdığımız komutlardır. Bunlar uygulamaları güncellemek için kullanılır.
-Malum Windows son zamanlarda WSL falan derken epey yanladı Linux cephesine 🙂 Şimdi de bu komut satırından güncelleme topuna girmiş gibi görünüyor.</p>
-<p>Nasıl yapıyoruz peki? Powershell’i açıp, <strong>“winget upgrade”</strong> yazıp enter’layın.</p>
-<figure><img src="/images/windows-terminal-app-update.png"/>
+        </div><div class="content" id="content"><p>Malum bu koyu mod/açık mod mevzusu telefonlarla epey hayatımıza girdi çok da ihtiyaç olan güzel bir özellik olarak elzem ihtiyaçlardan biri haline geldi.
+Windows 10’da bunu otomatik yapamayan Microsoft, sağ olsun Windows 11’de de bu özelliği sisteme entegre etmemiş.
+Peki otomatik olarak koyu mod/açık mod geçişi yapmak için ne yapacağız?</p>
+<p>Tam bu noktada Microsoft Store içerisindeki, <strong>Auto Dark Mode</strong> isimli yazılım imdadımıza yetişiyor.
+Store’a girip, auto dark mode diye arattığımzda yazılıma erişebiliyoruz.</p>
+<figure><img src="/images/auto_dark_mode.png"/>
 </figure>
 
+<p>Türkçe dil değsteği de olan yazılımda zamanlamayı konum bazlı ya da saat bazlı olarak da yapabiliyor olmamız oldukça keyifli.</p>
+<figure><img src="/images/auto_dark_mode_1.png"/>
+</figure>
+
+<p>Gözlerinizi yormadan keyifli kullanmalar.</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>01/27/2023 tarihinde güncellendi</span>
+                <span>01/30/2023 tarihinde güncellendi</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"><span>
-                            <a class="link-to-markdown" href="/windows-terminalden-uygulama-guncellemek/index.md" target="_blank">Markdown Oku</a>
+                            <a class="link-to-markdown" href="/windowsta-otomatik-koyu-mod-ozelligini-kullanmak/index.md" target="_blank">Markdown Oku</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Şurada Paylaş Twitter" data-sharer="twitter" data-url="https://dizdar.dev/windows-terminalden-uygulama-guncellemek/" data-title="Windows Terminal’den uygulama güncellemek" data-via="mstfdzdr" data-hashtags="terminal,cmd"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Facebook" data-sharer="facebook" data-url="https://dizdar.dev/windows-terminalden-uygulama-guncellemek/" data-hashtag="terminal"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Linkedin" data-sharer="linkedin" data-url="https://dizdar.dev/windows-terminalden-uygulama-guncellemek/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş WhatsApp" data-sharer="whatsapp" data-url="https://dizdar.dev/windows-terminalden-uygulama-guncellemek/" data-title="Windows Terminal’den uygulama güncellemek" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Pocket" data-sharer="pocket" data-url="https://dizdar.dev/windows-terminalden-uygulama-guncellemek/"><i class="fab fa-get-pocket fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Evernote" data-sharer="evernote" data-url="https://dizdar.dev/windows-terminalden-uygulama-guncellemek/" data-title="Windows Terminal’den uygulama güncellemek"><i class="fab fa-evernote fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Trello" data-sharer="trello" data-url="https://dizdar.dev/windows-terminalden-uygulama-guncellemek/" data-title="Windows Terminal’den uygulama güncellemek" data-description=""><i class="fab fa-trello fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Şurada Paylaş Twitter" data-sharer="twitter" data-url="https://dizdar.dev/windowsta-otomatik-koyu-mod-ozelligini-kullanmak/" data-title="Windows’ta otomatik koyu mod özelliğini kullanmak" data-via="mstfdzdr" data-hashtags="windows,dark theme"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Facebook" data-sharer="facebook" data-url="https://dizdar.dev/windowsta-otomatik-koyu-mod-ozelligini-kullanmak/" data-hashtag="windows"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Linkedin" data-sharer="linkedin" data-url="https://dizdar.dev/windowsta-otomatik-koyu-mod-ozelligini-kullanmak/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş WhatsApp" data-sharer="whatsapp" data-url="https://dizdar.dev/windowsta-otomatik-koyu-mod-ozelligini-kullanmak/" data-title="Windows’ta otomatik koyu mod özelliğini kullanmak" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Pocket" data-sharer="pocket" data-url="https://dizdar.dev/windowsta-otomatik-koyu-mod-ozelligini-kullanmak/"><i class="fab fa-get-pocket fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Evernote" data-sharer="evernote" data-url="https://dizdar.dev/windowsta-otomatik-koyu-mod-ozelligini-kullanmak/" data-title="Windows’ta otomatik koyu mod özelliğini kullanmak"><i class="fab fa-evernote fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Trello" data-sharer="trello" data-url="https://dizdar.dev/windowsta-otomatik-koyu-mod-ozelligini-kullanmak/" data-title="Windows’ta otomatik koyu mod özelliğini kullanmak" data-description=""><i class="fab fa-trello fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/terminal/">terminal</a>,&nbsp;<a href="/tags/cmd/">cmd</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/windows/">windows</a>,&nbsp;<a href="/tags/dark-theme/">dark theme</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Geri</a></span>&nbsp;|&nbsp;<span><a href="/">Anasayfa</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/flutter-telefon-aramasi-yaptirmak/" class="prev" rel="prev" title="Flutter Telefon Araması Yaptırmak"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Flutter Telefon Araması Yaptırmak</a>
-            <a href="/django-da-goruntulenen-sayfanin-linkine-active-classi-ekleme/" class="next" rel="next" title="Django’da görüntülenen sayfanın linkine active class’ı ekleme">Django’da görüntülenen sayfanın linkine active class’ı ekleme<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/vs-code-koyu-acik-tema-ayari-yapmak/" class="prev" rel="prev" title="Visual Studio Code koyu tema/açık tema ayarı yapmak"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Visual Studio Code koyu tema/açık tema ayarı yapmak</a>
+            <a href="/mongodb-ye-uzaktan-erisim-vermek/" class="next" rel="next" title="MongoDB&#39;ye Uzaktan Erişim Vermek">MongoDB'ye Uzaktan Erişim Vermek<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">

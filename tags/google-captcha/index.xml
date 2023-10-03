@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>google captcha - Etiket - mustafa dizdar - blog</title>
+        <link>https://dizdar.dev/tags/google-captcha/</link>
+        <description>google captcha - Etiket - mustafa dizdar - blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Tue, 19 Oct 2021 15:58:12 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/tags/google-captcha/" rel="self" type="application/rss+xml" /><item>
+    <title>Django Projesine Google Captcha Ekleme</title>
+    <link>https://dizdar.dev/django-projesine-google-captcha-ekleme/</link>
+    <pubDate>Tue, 19 Oct 2021 15:58:12 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/django-projesine-google-captcha-ekleme/</guid>
+    <description><![CDATA[Öncelikle Google Captcha adresine gidip dökümantasyon kısmına ulaşalım. Burada kullanabileceğimiz iki versiyon (reCAPTCHA v2 ve reCAPTCHA v3) bulunmakta. Ben klasik “ben robot değilim” butonu şeklinde ekleme yapmak istediğim için reCAPTCHAv2’yi kullanacağım.
+reCAPTCHA Admin‘e tıklayarak gerekli alanları dolduralım. Bunlar site yönetici e-postaları, kontrol edilecek domainler vb. Daha sonra Google bize iki adet KEY verecek. Bunlardan biri front-end için diğeri yani SECRET KEY yazan ise back-end için.
+Projemizin captcha kontrolü nerede yapmasını istiyorsak o sayfanın templates klasöründeki html dosyasına gelip uygun bir yere aşağıdaki html kodunu yerleştirmeli ve data-sitekey özelliğini kendi keyiniz ile doldurmalısınız.]]></description>
+</item>
+</channel>
+</rss>
