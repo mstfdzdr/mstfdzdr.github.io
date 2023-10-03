@@ -21,15 +21,6 @@
 Nasıl yapıyoruz peki? Powershell’i açıp, “winget upgrade” yazıp enter’layın.]]></description>
 </item>
 <item>
-    <title>Windows’ta otomatik koyu mod özelliğini kullanmak</title>
-    <link>https://dizdar.dev/windowsta-otomatik-koyu-mod-ozelligini-kullanmak/</link>
-    <pubDate>Sat, 27 Nov 2021 16:03:09 &#43;0300</pubDate>
-    <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/windowsta-otomatik-koyu-mod-ozelligini-kullanmak/</guid>
-    <description><![CDATA[Malum bu koyu mod/açık mod mevzusu telefonlarla epey hayatımıza girdi çok da ihtiyaç olan güzel bir özellik olarak elzem ihtiyaçlardan biri haline geldi. Windows 10’da bunu otomatik yapamayan Microsoft, sağ olsun Windows 11’de de bu özelliği sisteme entegre etmemiş. Peki otomatik olarak koyu mod/açık mod geçişi yapmak için ne yapacağız?
-Tam bu noktada Microsoft Store içerisindeki, Auto Dark Mode isimli yazılım imdadımıza yetişiyor. Store’a girip, auto dark mode diye arattığımzda yazılıma erişebiliyoruz.]]></description>
-</item>
-<item>
     <title>Visual Studio Code koyu tema/açık tema ayarı yapmak</title>
     <link>https://dizdar.dev/vs-code-koyu-acik-tema-ayari-yapmak/</link>
     <pubDate>Fri, 26 Nov 2021 16:06:59 &#43;0300</pubDate>
