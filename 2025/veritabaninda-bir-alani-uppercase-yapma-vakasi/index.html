@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Veritabaninda Bir Alani Uppercase Yapma Vakasi - mustafa dizdar - blog</title><meta name="Description" content="mustafa dizdar blog"><meta property="og:url" content="https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/">
+  <meta property="og:site_name" content="mustafa dizdar - blog">
+  <meta property="og:title" content="Veritabaninda Bir Alani Uppercase Yapma Vakasi">
+  <meta property="og:description" content="Calistigim projelerin birinde kullanici veritabanina kurum adini kendi string olarak giriyor. Tabii bu degerin alindigi inputta bir standart konulmamis. Haliyle veriler uppercase, camelcase, lowercase, capitalized words vb. turlu turlu farkli sekilde kaydedilmis. Bu da gunun sonunda veriyi getirip gruplama yaparken problem yaratiyordu. Koyulduk Gemini ile ise :)
+Ilk is olarak veriyi degistirmeden once dogru seyi yaptigimdan emin olmam gerek. O yuzden belirli bir id ile select atip hem mevcut veriyi hem de degistirdigimde gormek istedigim veri icin ornekler cagiriyorum.">
+  <meta property="og:locale" content="tr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-11-14T00:32:06+03:00">
+    <meta property="article:modified_time" content="2025-11-14T00:32:06+03:00">
+    <meta property="article:tag" content="Oracle">
+    <meta property="og:image" content="https://dizdar.dev/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://dizdar.dev/logo.png">
+  <meta name="twitter:title" content="Veritabaninda Bir Alani Uppercase Yapma Vakasi">
+  <meta name="twitter:description" content="Calistigim projelerin birinde kullanici veritabanina kurum adini kendi string olarak giriyor. Tabii bu degerin alindigi inputta bir standart konulmamis. Haliyle veriler uppercase, camelcase, lowercase, capitalized words vb. turlu turlu farkli sekilde kaydedilmis. Bu da gunun sonunda veriyi getirip gruplama yaparken problem yaratiyordu. Koyulduk Gemini ile ise :)
+Ilk is olarak veriyi degistirmeden once dogru seyi yaptigimdan emin olmam gerek. O yuzden belirli bir id ile select atip hem mevcut veriyi hem de degistirdigimde gormek istedigim veri icin ornekler cagiriyorum.">
+<meta name="application-name" content="mstfdzdr">
+<meta name="apple-mobile-web-app-title" content="mstfdzdr">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/" /><link rel="prev" href="https://dizdar.dev/2023/visual-studio-code-ozel-tus-kombinasyonlari-atama/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/css/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Veritabaninda Bir Alani Uppercase Yapma Vakasi",
+        "inLanguage": "tr",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/dizdar.dev\/2025\/veritabaninda-bir-alani-uppercase-yapma-vakasi\/"
+        },"genre": "posts","keywords": "oracle","wordcount":  746 ,
+        "url": "https:\/\/dizdar.dev\/2025\/veritabaninda-bir-alani-uppercase-yapma-vakasi\/","datePublished": "2025-11-14T00:32:06+03:00","dateModified": "2025-11-14T00:32:06+03:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "mstfdzdr"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>
+          const query = window.matchMedia('(prefers-color-scheme: dark)');
+          function applyTheme() {
+            let theme = window.localStorage?.getItem('theme') || 'auto';
+            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
+            document.body.setAttribute('theme', isDark? 'dark' : 'light');
+            document.body.setAttribute('cfg-theme', theme);
+          }
+
+          applyTheme();
+          query.addEventListener('change', applyTheme);
+        </script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="mustafa dizdar - blog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>dizdardev</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"><i class='fas fa-file-alt'></i> Yazılar </a><a class="menu-item" href="/tags/"><i class='fas fa-tags'></i> Etiketler </a><a class="menu-item" href="/categories/"><i class='fas fa-folder'></i> Kategoriler </a><a class="menu-item" href="/about/"> Hakkımda </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Başlık yada içerik arama..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Arama">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Temizle">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="mustafa dizdar - blog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>dizdardev</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Başlık yada içerik arama..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Arama">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Temizle">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        İptal
+                    </a>
+                </div><a class="menu-item" href="/posts/" title=""><i class='fas fa-file-alt'></i>Yazılar</a><a class="menu-item" href="/tags/" title=""><i class='fas fa-tags'></i>Etiketler</a><a class="menu-item" href="/categories/" title=""><i class='fas fa-folder'></i>Kategoriler</a><a class="menu-item" href="/about/" title="">Hakkımda</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">İçerikler</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Veritabaninda Bir Alani Uppercase Yapma Vakasi</h1><div class="post-meta">
+            <div class="post-meta-line">&nbsp;<span class="post-category">Kategori: <a href="/categories/veritabani/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Veritabani</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="14 November 2025, Friday">14 November 2025, Friday</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;746 kelime&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;Tahmini 4 dakikada okunabilir&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>İçerikler</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#oracle-upper-metodu-kullanmak">Oracle UPPER metodu kullanmak</a>
+      <ul>
+        <li><a href="#turkce-karakterler-icin-oracle-ozel-fonksiyonu-nls_upper-denemesi">Turkce karakterler icin Oracle ozel fonksiyonu (NLS_UPPER) denemesi</a>
+          <ul>
+            <li><a href="#veritabanı-ayarlarının-önemi">Veritabanı Ayarlarının Önemi</a></li>
+          </ul>
+        </li>
+        <li><a href="#nls_upper-da-ise-yaramadi-ufak-capli-debug-yapalim">NLS_UPPER da ise yaramadi. Ufak capli DEBUG yapalim.</a>
+          <ul>
+            <li><a href="#analiz-dump-sonucu-sorun-ortaya-cikti">Analiz Dump Sonucu Sorun Ortaya Cikti</a></li>
+            <li><a href="#çözüm-korumalı-manuel-dönüşüm-hile-yöntemi">Çözüm: &ldquo;Korumalı&rdquo; Manuel Dönüşüm (Hile Yöntemi)</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>Calistigim projelerin birinde kullanici veritabanina kurum adini kendi string olarak giriyor. Tabii bu degerin alindigi inputta bir standart konulmamis. Haliyle veriler uppercase, camelcase, lowercase, capitalized words vb. turlu turlu farkli sekilde kaydedilmis. Bu da gunun sonunda veriyi getirip gruplama yaparken problem yaratiyordu. Koyulduk Gemini ile ise :)</p>
+<p>Ilk is olarak veriyi degistirmeden once dogru seyi yaptigimdan emin olmam gerek. O yuzden belirli bir id ile select atip hem mevcut veriyi hem de degistirdigimde gormek istedigim veri icin ornekler cagiriyorum.</p>
+<h2 id="oracle-upper-metodu-kullanmak">Oracle UPPER metodu kullanmak</h2>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-sql">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Panoya kopyala"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="w">    </span><span class="k">SELECT</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">ADI</span><span class="p">,</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">UPPER</span><span class="p">(</span><span class="n">ADI</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">BUYUK_HARFLI_ADI</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">FROM</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">KURUM</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">WHERE</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">ID</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">28</span><span class="p">;</span></span></span></code></pre></div></div>
+<p>Turkce karakterlerin neredeyse hepsinde ki kucuk i harfini upper yapmak disinda hepsi diyebiliriz calisti aslinda. Fakat belli ki karakter setiyle alakali tam oturmayan bir sey vardi.</p>
+<h3 id="turkce-karakterler-icin-oracle-ozel-fonksiyonu-nls_upper-denemesi">Turkce karakterler icin Oracle ozel fonksiyonu (NLS_UPPER) denemesi</h3>
+<p>Türkçe karakterler (&lsquo;ı&rsquo;, &lsquo;i&rsquo;, &lsquo;ş&rsquo;, &lsquo;ğ&rsquo;, &lsquo;ü&rsquo;, &lsquo;ö&rsquo;, &lsquo;ç&rsquo;) standart UPPER() fonksiyonuyla, veritabanının NLS (National Language Support) ayarlarına bağlı olarak hatalı dönüşebilir. En sık karşılaşılan problem &lsquo;i&rsquo; harfinin &lsquo;İ&rsquo; yerine &lsquo;I&rsquo; olması veya &lsquo;ı&rsquo; harfinin &lsquo;I&rsquo; yerine &lsquo;İ&rsquo; olarak dönüştürülmesidir. Bu sorunu çözmek için Oracle&rsquo;ın dile özel fonksiyonu olan NLS_UPPER() fonksiyonunu kullanmalısınız. Bu fonksiyon, işlemi yaparken hangi dilin kurallarını baz alacağını belirtmenize olanak tanır.</p>
+<p>Simdiki denememiz soyle</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-sql">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Panoya kopyala"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="w">    </span><span class="k">SELECT</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">ADI</span><span class="p">,</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">NLS_UPPER</span><span class="p">(</span><span class="n">ADI</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;NLS_SORT = TURKISH&#39;</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">BUYUK_HARFLI_ADI</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">FROM</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">KURUM</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">WHERE</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">ID</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">28</span><span class="p">;</span></span></span></code></pre></div></div>
+<h4 id="veritabanı-ayarlarının-önemi">Veritabanı Ayarlarının Önemi</h4>
+<p>Basit UPPER(ADI) fonksiyonunun nasıl davranacağı, veritabanınızın veya oturumunuzun NLS_SORT parametresine bağlıdır. Eğer bu parametre zaten TURKISH olarak ayarlıysa, basit UPPER() da doğru çalışabilir.</p>
+<p>Ancak NLS_UPPER(&hellip;, &lsquo;NLS_SORT = TURKISH&rsquo;) kullanmak, bu ayar ne olursa olsun sorgunuzun her zaman doğru çalışmasını garanti altına alır. Bu nedenle özellikle C# veya Java gibi bir uygulamadan (.NET projeniz gibi) sorgu gönderirken bu yöntem en güvenlisidir.</p>
+<p>Mevcut ayarlarınızı merak ederseniz şu sorgularla kontrol edebilirsiniz:</p>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-sql">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Panoya kopyala"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="c1">-- Veritabanının varsayılan ayarları
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">NLS_DATABASE_PARAMETERS</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="k">PARAMETER</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;NLS_SORT&#39;</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">-- Sizin mevcut oturumunuzun (session) ayarları
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">NLS_SESSION_PARAMETERS</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="k">PARAMETER</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;NLS_SORT&#39;</span><span class="p">;</span></span></span></code></pre></div></div>
+<h3 id="nls_upper-da-ise-yaramadi-ufak-capli-debug-yapalim">NLS_UPPER da ise yaramadi. Ufak capli DEBUG yapalim.</h3>
+<p>Veritabanının bu karakterleri ve fonksiyonları nasıl yorumladığını tam olarak görmemiz gerekiyor. Bu durum, veritabanının kendi NLS_DATABASE_PARAMETERS ayarlarından veya CHARACTERSET (karakter kodlaması) ayarından kaynaklanıyor olabilir. Asagidaki analiz sorgusunu calistirip sonuclari Gemini ile paylastim.</p>
+<div class="code-block code-line-numbers" style="counter-reset: code-block 0">
+    <div class="code-header language-sql">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Panoya kopyala"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="w">    </span><span class="k">SELECT</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">ADI</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">-- Verinin ham (byte) dökümü
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">        </span><span class="n">DUMP</span><span class="p">(</span><span class="n">ADI</span><span class="p">,</span><span class="w"> </span><span class="mi">1016</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">DUMP_ORIJINAL</span><span class="p">,</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">-- Standart UPPER fonksiyonunun ham dökümü
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">        </span><span class="k">UPPER</span><span class="p">(</span><span class="n">ADI</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">STANDART_UPPER</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">DUMP</span><span class="p">(</span><span class="k">UPPER</span><span class="p">(</span><span class="n">ADI</span><span class="p">),</span><span class="w"> </span><span class="mi">1016</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">DUMP_STANDART_UPPER</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">-- NLS_SORT denemesinin ham dökümü
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">        </span><span class="n">NLS_UPPER</span><span class="p">(</span><span class="n">ADI</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;NLS_SORT = TURKISH&#39;</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">SORT_DENEMESI</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">DUMP</span><span class="p">(</span><span class="n">NLS_UPPER</span><span class="p">(</span><span class="n">ADI</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;NLS_SORT = TURKISH&#39;</span><span class="p">),</span><span class="w"> </span><span class="mi">1016</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">DUMP_SORT_DENEMESI</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">-- NLS_LANGUAGE denemesinin ham dökümü
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">        </span><span class="n">NLS_UPPER</span><span class="p">(</span><span class="n">ADI</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;NLS_LANGUAGE = TURKISH&#39;</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">LANGUAGE_DENEMESI</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">DUMP</span><span class="p">(</span><span class="n">NLS_UPPER</span><span class="p">(</span><span class="n">ADI</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;NLS_LANGUAGE = TURKISH&#39;</span><span class="p">),</span><span class="w"> </span><span class="mi">1016</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">DUMP_LANGUAGE_DENEMESI</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">FROM</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">KURUM</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">WHERE</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">SATIRID</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">28</span><span class="p">;</span></span></span></code></pre></div></div>
+<p><strong>Bu Sorgu Ne Yapıyor?</strong></p>
+<ul>
+<li>
+<p>DUMP(&hellip;, 1016): Bu fonksiyon, bir metin alanındaki her karakterin tam olarak hangi byte değerleriyle veritabanında saklandığını gösterir.</p>
+</li>
+<li>
+<p>&ldquo;Merkezi&rdquo; kelimesindeki &lsquo;i&rsquo; harfinin orijinal dökümüne (DUMP_ORIJINAL) ve LANGUAGE_DENEMESI dökümüne (DUMP_LANGUAGE_DENEMESI) bakacağız.</p>
+</li>
+<li>
+<p>Eğer LANGUAGE_DENEMESI çıktısındaki harf, &ldquo;I&rdquo; (büyük I) harfinin byte koduna dönüşüyorsa, sorun veritabanı kök ayarlarındadır. Eğer &ldquo;İ&rdquo; (noktalı büyük İ) harfinin byte koduna dönüşüyorsa, fonksiyon doğru çalışıyor demektir ancak veriyi size gösteren arayüz (SQL Developer, DBeaver, Toad vb.) bunu yanlış yorumluyor olabilir.</p>
+</li>
+</ul>
+<h4 id="analiz-dump-sonucu-sorun-ortaya-cikti">Analiz Dump Sonucu Sorun Ortaya Cikti</h4>
+<p>Gemini&rsquo;nin verdigi cevabi oldugu gibi aktariyorum.</p>
+<p>Gelen DUMP sonuçları, tüm fonksiyonların (UPPER, NLS_UPPER (SORT) ve NLS_UPPER (LANGUAGE)) aynı hatalı sonucu ürettiğini kanıtlıyor.</p>
+<p><strong>Orijinal DUMP_ORIJINAL:</strong></p>
+<p>&hellip;Merkezi&hellip; kelimesindeki i harfinin byte kodu: 69</p>
+<p><strong>Tüm Diğer DUMP Sonuçları:</strong></p>
+<p>&hellip;MERKEZI&hellip; kelimesindeki I harfinin byte kodu: 49</p>
+<p><strong>WE8ISO8859P9 (Latin-5) karakter setinde:</strong></p>
+<ul>
+<li>
+<p>0x69 = i (küçük noktalı i)</p>
+</li>
+<li>
+<p>0x49 = I (büyük noktasız I)</p>
+</li>
+<li>
+<p>0xDD = İ (büyük noktalı İ) - Olması gereken buydu.</p>
+</li>
+</ul>
+<p><strong>Sonuç:</strong> <em>Sizin Oracle  veritabanı kurulumunuzda, NLS_LANGUAGE = TURKISH parametresi bile, i harfini İ harfine (0xDD) dönüştürme kuralını uygulamıyor veya bu kural (NLS tanımı) veritabanında bozuk/eksik. Bu durum, genellikle veritabanı &ldquo;patch&rdquo; (yama) seviyesinin eski olmasından veya NLS veri dosyalarının hasar görmüş olmasından kaynaklanabilir.</em></p>
+<h4 id="çözüm-korumalı-manuel-dönüşüm-hile-yöntemi">Çözüm: &ldquo;Korumalı&rdquo; Manuel Dönüşüm (Hile Yöntemi)</h4>
+<p>Madem Oracle&rsquo;ın yerleşik fonksiyonları bu işi doğru yapmıyor, o zaman biz de bu fonksiyonları &ldquo;kandırarak&rdquo; manuel bir düzeltme yapacağız.</p>
+<p>Bu yöntemde 3 adım uygulayacağız:</p>
+<ul>
+<li>
+<p>Bozulan i (küçük i) harfini, UPPER fonksiyonunun dokunmayacağı geçici bir karakterle (mesela CHR(1) gibi) değiştireceğiz.</p>
+</li>
+<li>
+<p>NLS_UPPER fonksiyonunu çalıştıracağız. Bu, ğ, ş, ü gibi diğer tüm Türkçe karakterleri ve i dışındaki her şeyi doğruca büyütecek.</p>
+</li>
+<li>
+<p>Son olarak, geçici karakterimizi (CHR(1)) olması gereken İ (büyük noktalı İ) harfiyle geri değiştireceğiz.</p>
+</li>
+</ul>
+<p>İşte bu mantıkla çalışan sorgu:</p>
+<div class="code-block code-line-numbers" style="counter-reset: code-block 0">
+    <div class="code-header language-sql">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Panoya kopyala"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="w">    </span><span class="k">SELECT</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">ADI</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">REPLACE</span><span class="p">(</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">NLS_UPPER</span><span class="p">(</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">                </span><span class="k">REPLACE</span><span class="p">(</span><span class="n">ADI</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;i&#39;</span><span class="p">,</span><span class="w"> </span><span class="n">CHR</span><span class="p">(</span><span class="mi">1</span><span class="p">)),</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">                </span><span class="s1">&#39;NLS_LANGUAGE = TURKISH&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="p">),</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">CHR</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="s1">&#39;İ&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">BUYUK_HARFLI_ADI</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">FROM</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">KURUM</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">WHERE</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">SATIRID</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">28</span><span class="p">;</span></span></span></code></pre></div></div>
+<p>Bingo! Bu calisti. Bundan sonrasi artik ya mevcut ADI kolonunu tum tabloda gezip UPDATE yapmak ya da daha saglama alip yeni kolon olusturup ADI alanini yeni kolona UPPER sekilde atmak. Ben muhtemelen ikincisini tercih edecegim. Karar size kalmis.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>14 November 2025, Friday tarihinde güncellendi</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/index.md" target="_blank">Markdown Oku</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Şurada Paylaş X" data-sharer="x" data-url="https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/" data-title="Veritabaninda Bir Alani Uppercase Yapma Vakasi" data-via="mstfdzdr" data-hashtags="oracle"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Threads" data-sharer="threads" data-url="https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/" data-title="Veritabaninda Bir Alani Uppercase Yapma Vakasi"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Facebook" data-sharer="facebook" data-url="https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/" data-hashtag="oracle"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Linkedin" data-sharer="linkedin" data-url="https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş WhatsApp" data-sharer="whatsapp" data-url="https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/" data-title="Veritabaninda Bir Alani Uppercase Yapma Vakasi" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Pocket" data-sharer="pocket" data-url="https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/"><i class="fab fa-get-pocket fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Evernote" data-sharer="evernote" data-url="https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/" data-title="Veritabaninda Bir Alani Uppercase Yapma Vakasi"><i class="fab fa-evernote fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Trello" data-sharer="trello" data-url="https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/" data-title="Veritabaninda Bir Alani Uppercase Yapma Vakasi" data-description=""><i class="fab fa-trello fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Diaspora" data-sharer="diaspora" data-url="https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/" data-title="Veritabaninda Bir Alani Uppercase Yapma Vakasi" data-description=""><i class="fab fa-diaspora fa-fw" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=https%3a%2f%2fdizdar.dev%2f2025%2fveritabaninda-bir-alani-uppercase-yapma-vakasi%2f&amp;text=Veritabaninda%20Bir%20Alani%20Uppercase%20Yapma%20Vakasi" target="_blank" title="Şurada Paylaş Telegram"><i class="fab fa-telegram fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/oracle/">Oracle</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Geri</a></span>&nbsp;|&nbsp;<span><a href="/">Anasayfa</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/2023/visual-studio-code-ozel-tus-kombinasyonlari-atama/" class="prev" rel="prev" title="Visual Studio Code&#39;a Özel Tuş Kombinasyonları Atama"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Visual Studio Code'a Özel Tuş Kombinasyonları Atama</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.145.0">Hugo</a> ile yapıldı | Tema - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.1-DEV"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">mstfdzdr</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Başa Dön">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="Yorumları Gör">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><script src="/lib/autocomplete/autocomplete.min.js"></script><script src="/lib/lunr/lunr.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/katex/katex.min.js"></script><script src="/lib/katex/contrib/auto-render.min.js"></script><script src="/lib/katex/contrib/copy-tex.min.js"></script><script src="/lib/katex/contrib/mhchem.min.js"></script><script>window.config={"comment":{},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"Sonuç bulunamadı","snippetLength":30,"type":"lunr"}};</script><script src="/js/theme.min.js"></script></body>
+</html>

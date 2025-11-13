@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Flutter Telefon Araması Yaptırmak - mustafa dizdar - blog</title><meta name="Description" content="mustafa dizdar blog"><meta property="og:url" content="https://dizdar.dev/2023/flutter-telefon-aramasi-yaptirmak/">
+  <meta property="og:site_name" content="mustafa dizdar - blog">
+  <meta property="og:title" content="Flutter Telefon Araması Yaptırmak">
+  <meta property="og:description" content="Geçenlerde bir proje için modelden gelen numarayı arama ihtiyacı doğdu. Sonrasında araştırınca url launcher paketi ile bunun gerçekleştirildiğini gördüm. Hatta paket sadece arama yapmak için değil, adı gibi tüm url açma işlemleri için kullanılıyor. Örn: web linkleri açmak, sms atmak, e-mail göndermek gibi.">
+  <meta property="og:locale" content="tr">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-01-27T14:15:22+03:00">
+    <meta property="article:modified_time" content="2023-01-27T14:15:22+03:00">
+    <meta property="article:tag" content="Mobil Programlama">
+    <meta property="og:image" content="https://dizdar.dev/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://dizdar.dev/logo.png">
+  <meta name="twitter:title" content="Flutter Telefon Araması Yaptırmak">
+  <meta name="twitter:description" content="Geçenlerde bir proje için modelden gelen numarayı arama ihtiyacı doğdu. Sonrasında araştırınca url launcher paketi ile bunun gerçekleştirildiğini gördüm. Hatta paket sadece arama yapmak için değil, adı gibi tüm url açma işlemleri için kullanılıyor. Örn: web linkleri açmak, sms atmak, e-mail göndermek gibi.">
+<meta name="application-name" content="mstfdzdr">
+<meta name="apple-mobile-web-app-title" content="mstfdzdr">
+<meta name="referrer" content="no-referrer" /><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://dizdar.dev/2023/flutter-telefon-aramasi-yaptirmak/" /><link rel="prev" href="https://dizdar.dev/2023/yeni-django-projesine-baslamak/" /><link rel="next" href="https://dizdar.dev/2023/windows-terminalden-uygulama-guncellemek/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/css/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Flutter Telefon Araması Yaptırmak",
+        "inLanguage": "tr",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/dizdar.dev\/2023\/flutter-telefon-aramasi-yaptirmak\/"
+        },"genre": "posts","keywords": "mobil programlama","wordcount":  107 ,
+        "url": "https:\/\/dizdar.dev\/2023\/flutter-telefon-aramasi-yaptirmak\/","datePublished": "2023-01-27T14:15:22+03:00","dateModified": "2023-01-27T14:15:22+03:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "mstfdzdr"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script>
+          const query = window.matchMedia('(prefers-color-scheme: dark)');
+          function applyTheme() {
+            let theme = window.localStorage?.getItem('theme') || 'auto';
+            let isDark = theme === 'dark' || (theme === 'auto' && query.matches);
+            document.body.setAttribute('theme', isDark? 'dark' : 'light');
+            document.body.setAttribute('cfg-theme', theme);
+          }
+
+          applyTheme();
+          query.addEventListener('change', applyTheme);
+        </script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="mustafa dizdar - blog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>dizdardev</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"><i class='fas fa-file-alt'></i> Yazılar </a><a class="menu-item" href="/tags/"><i class='fas fa-tags'></i> Etiketler </a><a class="menu-item" href="/categories/"><i class='fas fa-folder'></i> Kategoriler </a><a class="menu-item" href="/about/"> Hakkımda </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Başlık yada içerik arama..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Arama">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Temizle">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="mustafa dizdar - blog"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>dizdardev</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Başlık yada içerik arama..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Arama">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Temizle">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        İptal
+                    </a>
+                </div><a class="menu-item" href="/posts/" title=""><i class='fas fa-file-alt'></i>Yazılar</a><a class="menu-item" href="/tags/" title=""><i class='fas fa-tags'></i>Etiketler</a><a class="menu-item" href="/categories/" title=""><i class='fas fa-folder'></i>Kategoriler</a><a class="menu-item" href="/about/" title="">Hakkımda</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Flutter Telefon Araması Yaptırmak</h1><div class="post-meta">
+            <div class="post-meta-line">&nbsp;<span class="post-category">Kategori: <a href="/categories/flutter/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Flutter</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="27 January 2023, Friday">27 January 2023, Friday</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;107 kelime&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;Tahmini bir dakikada okunabilir&nbsp;</div>
+        </div><div class="content" id="content"><p>Geçenlerde bir proje için modelden gelen numarayı arama ihtiyacı doğdu. Sonrasında araştırınca url launcher paketi ile bunun gerçekleştirildiğini gördüm.
+Hatta paket sadece arama yapmak için değil, adı gibi tüm url açma işlemleri için kullanılıyor. Örn: web linkleri açmak, sms atmak, e-mail göndermek gibi.</p>
+<h3 id="paketin-kurulumu">Paketin Kurulumu</h3>
+<ul>
+<li><a href="https://pub.dev/packages/url_launcher" target="_blank" rel="noopener noreffer ">https://pub.dev/packages/url_launcher</a> adresine gidip paketi yükleyin.</li>
+<li>Sonrasında paketi projenize import edin, ben bu örnekte urLauncher alias’ı ile import ettim.</li>
+<li>Arama yaptıracağınız butonun ya da herhangi bir şeyin, ben butondan örnek vereyim; onPressed metoduna;</li>
+</ul>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-dart">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Panoya kopyala"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-dart" data-lang="dart"><span class="line"><span class="cl"><span class="nl">onPressed:</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">urLauncher</span><span class="p">.</span><span class="n">launch</span><span class="p">(</span><span class="s1">&#39;tel://&#39;</span> <span class="o">+</span> <span class="n">$buradaTelefonNoValOlacak</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl"><span class="p">},</span></span></span></code></pre></div></div>
+
+<p>Hepsi bu kadar 🙂 Ben telefon izni vs. gerekir diye düşündüm ama şimdilik karşıma öyle bir durum çıkmadı.</p>
+<h4 id="kaynaklar">Kaynaklar:</h4>
+<ul>
+<li><a href="https://medium.flutterdevs.com/implementing-phone-calls-using-the-flutter-app-e350ea275c92" target="_blank" rel="noopener noreffer ">https://medium.flutterdevs.com/implementing-phone-calls-using-the-flutter-app-e350ea275c92</a></li>
+<li><a href="https://pub.dev/packages/url_launcher" target="_blank" rel="noopener noreffer ">https://pub.dev/packages/url_launcher</a></li>
+<li><a href="https://stackoverflow.com/questions/45523370/how-to-make-a-phone-call-from-a-flutter-app" target="_blank" rel="noopener noreffer ">https://stackoverflow.com/questions/45523370/how-to-make-a-phone-call-from-a-flutter-app</a></li>
+</ul></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>27 January 2023, Friday tarihinde güncellendi</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/2023/flutter-telefon-aramasi-yaptirmak/index.md" target="_blank">Markdown Oku</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Şurada Paylaş X" data-sharer="x" data-url="https://dizdar.dev/2023/flutter-telefon-aramasi-yaptirmak/" data-title="Flutter Telefon Araması Yaptırmak" data-via="mstfdzdr" data-hashtags="mobil programlama"><i class="fab fa-x-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Threads" data-sharer="threads" data-url="https://dizdar.dev/2023/flutter-telefon-aramasi-yaptirmak/" data-title="Flutter Telefon Araması Yaptırmak"><i class="fab fa-threads fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Facebook" data-sharer="facebook" data-url="https://dizdar.dev/2023/flutter-telefon-aramasi-yaptirmak/" data-hashtag="mobil programlama"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Linkedin" data-sharer="linkedin" data-url="https://dizdar.dev/2023/flutter-telefon-aramasi-yaptirmak/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş WhatsApp" data-sharer="whatsapp" data-url="https://dizdar.dev/2023/flutter-telefon-aramasi-yaptirmak/" data-title="Flutter Telefon Araması Yaptırmak" data-web><i class="fab fa-whatsapp fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Pocket" data-sharer="pocket" data-url="https://dizdar.dev/2023/flutter-telefon-aramasi-yaptirmak/"><i class="fab fa-get-pocket fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Evernote" data-sharer="evernote" data-url="https://dizdar.dev/2023/flutter-telefon-aramasi-yaptirmak/" data-title="Flutter Telefon Araması Yaptırmak"><i class="fab fa-evernote fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Trello" data-sharer="trello" data-url="https://dizdar.dev/2023/flutter-telefon-aramasi-yaptirmak/" data-title="Flutter Telefon Araması Yaptırmak" data-description=""><i class="fab fa-trello fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Şurada Paylaş Diaspora" data-sharer="diaspora" data-url="https://dizdar.dev/2023/flutter-telefon-aramasi-yaptirmak/" data-title="Flutter Telefon Araması Yaptırmak" data-description=""><i class="fab fa-diaspora fa-fw" aria-hidden="true"></i></a><a href="https://t.me/share/url?url=https%3a%2f%2fdizdar.dev%2f2023%2fflutter-telefon-aramasi-yaptirmak%2f&amp;text=Flutter%20Telefon%20Aramas%c4%b1%20Yapt%c4%b1rmak" target="_blank" title="Şurada Paylaş Telegram"><i class="fab fa-telegram fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/mobil-programlama/">Mobil Programlama</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Geri</a></span>&nbsp;|&nbsp;<span><a href="/">Anasayfa</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/2023/yeni-django-projesine-baslamak/" class="prev" rel="prev" title="Yeni Django Projesine Başlamak"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Yeni Django Projesine Başlamak</a>
+            <a href="/2023/windows-terminalden-uygulama-guncellemek/" class="next" rel="next" title="Windows Terminal’den uygulama güncellemek">Windows Terminal’den uygulama güncellemek<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.145.0">Hugo</a> ile yapıldı | Tema - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.1-DEV"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2020 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">mstfdzdr</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Başa Dön">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <div id="fixed-buttons-hidden"><a href="#" id="view-comments" class="fixed-button" title="Yorumları Gör">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><script src="/lib/autocomplete/autocomplete.min.js"></script><script src="/lib/lunr/lunr.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/lightgallery/lightgallery.min.js"></script><script src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script><script src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/katex/katex.min.js"></script><script src="/lib/katex/contrib/auto-render.min.js"></script><script src="/lib/katex/contrib/copy-tex.min.js"></script><script src="/lib/katex/contrib/mhchem.min.js"></script><script>window.config={"comment":{},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"Sonuç bulunamadı","snippetLength":30,"type":"lunr"}};</script><script src="/js/theme.min.js"></script></body>
+</html>

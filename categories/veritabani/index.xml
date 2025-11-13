@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Veritabani - Kategori - mustafa dizdar - blog</title>
+        <link>https://dizdar.dev/categories/veritabani/</link>
+        <description>Veritabani - Kategori - mustafa dizdar - blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Fri, 14 Nov 2025 00:32:06 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/categories/veritabani/" rel="self" type="application/rss+xml" /><item>
+    <title>Veritabaninda Bir Alani Uppercase Yapma Vakasi</title>
+    <link>https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/</link>
+    <pubDate>Fri, 14 Nov 2025 00:32:06 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/</guid>
+    <description><![CDATA[<p>Calistigim projelerin birinde kullanici veritabanina kurum adini kendi string olarak giriyor. Tabii bu degerin alindigi inputta bir standart konulmamis. Haliyle veriler uppercase, camelcase, lowercase, capitalized words vb. turlu turlu farkli sekilde kaydedilmis. Bu da gunun sonunda veriyi getirip gruplama yaparken problem yaratiyordu. Koyulduk Gemini ile ise :)</p>
+<p>Ilk is olarak veriyi degistirmeden once dogru seyi yaptigimdan emin olmam gerek. O yuzden belirli bir id ile select atip hem mevcut veriyi hem de degistirdigimde gormek istedigim veri icin ornekler cagiriyorum.</p>]]></description>
+</item>
+</channel>
+</rss>

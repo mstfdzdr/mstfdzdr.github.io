@@ -1,0 +1,87 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Kategori - mustafa dizdar - blog</title>
+        <link>https://dizdar.dev/categories/</link>
+        <description>Categories - Kategori - mustafa dizdar - blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Fri, 14 Nov 2025 00:32:06 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Veritabani</title>
+    <link>https://dizdar.dev/categories/veritabani/</link>
+    <pubDate>Fri, 14 Nov 2025 00:32:06 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/categories/veritabani/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Nasıl Yapılır</title>
+    <link>https://dizdar.dev/categories/nas%C4%B1l-yap%C4%B1l%C4%B1r/</link>
+    <pubDate>Mon, 29 May 2023 11:01:51 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/categories/nas%C4%B1l-yap%C4%B1l%C4%B1r/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Linux</title>
+    <link>https://dizdar.dev/categories/linux/</link>
+    <pubDate>Mon, 29 May 2023 10:52:10 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/categories/linux/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>PHP</title>
+    <link>https://dizdar.dev/categories/php/</link>
+    <pubDate>Tue, 07 Feb 2023 15:46:21 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/categories/php/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Flutter</title>
+    <link>https://dizdar.dev/categories/flutter/</link>
+    <pubDate>Fri, 27 Jan 2023 14:15:22 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/categories/flutter/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Django</title>
+    <link>https://dizdar.dev/categories/django/</link>
+    <pubDate>Fri, 27 Jan 2023 13:52:29 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/categories/django/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Python</title>
+    <link>https://dizdar.dev/categories/python/</link>
+    <pubDate>Fri, 27 Jan 2023 13:49:23 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/categories/python/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Mustafa Dizdar Kimdir?</title>
+    <link>https://dizdar.dev/categories/mustafa-dizdar-kimdir/</link>
+    <pubDate>Fri, 27 Jan 2023 13:41:55 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/categories/mustafa-dizdar-kimdir/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Veritabanı</title>
+    <link>https://dizdar.dev/categories/veritaban%C4%B1/</link>
+    <pubDate>Fri, 27 Jan 2023 13:25:01 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/categories/veritaban%C4%B1/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Bilgisayar Ve Öğretim Teknolojileri</title>
+    <link>https://dizdar.dev/categories/bilgisayar-ve-%C3%B6%C4%9Fretim-teknolojileri/</link>
+    <pubDate>Thu, 01 Apr 2021 02:06:29 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/categories/bilgisayar-ve-%C3%B6%C4%9Fretim-teknolojileri/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>

@@ -3,93 +3,95 @@
         <title>Tüm İçerikler - mustafa dizdar - blog</title>
         <link>https://dizdar.dev/posts/</link>
         <description>Tüm İçerikler | mustafa dizdar - blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Mon, 29 May 2023 11:01:51 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Fri, 14 Nov 2025 00:32:06 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Veritabaninda Bir Alani Uppercase Yapma Vakasi</title>
+    <link>https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/</link>
+    <pubDate>Fri, 14 Nov 2025 00:32:06 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/</guid>
+    <description><![CDATA[<p>Calistigim projelerin birinde kullanici veritabanina kurum adini kendi string olarak giriyor. Tabii bu degerin alindigi inputta bir standart konulmamis. Haliyle veriler uppercase, camelcase, lowercase, capitalized words vb. turlu turlu farkli sekilde kaydedilmis. Bu da gunun sonunda veriyi getirip gruplama yaparken problem yaratiyordu. Koyulduk Gemini ile ise :)</p>
+<p>Ilk is olarak veriyi degistirmeden once dogru seyi yaptigimdan emin olmam gerek. O yuzden belirli bir id ile select atip hem mevcut veriyi hem de degistirdigimde gormek istedigim veri icin ornekler cagiriyorum.</p>]]></description>
+</item>
+<item>
     <title>Visual Studio Code&#39;a Özel Tuş Kombinasyonları Atama</title>
-    <link>https://dizdar.dev/visual-studio-code-ozel-tus-kombinasyonlari-atama/</link>
+    <link>https://dizdar.dev/2023/visual-studio-code-ozel-tus-kombinasyonlari-atama/</link>
     <pubDate>Mon, 29 May 2023 11:01:51 &#43;0300</pubDate>
     <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/visual-studio-code-ozel-tus-kombinasyonlari-atama/</guid>
+    <guid>https://dizdar.dev/2023/visual-studio-code-ozel-tus-kombinasyonlari-atama/</guid>
     <description><![CDATA[<p>Jetbrains IDE&rsquo;lerine alışkın olanların çok sık kullandığı tuş kombinaslarından biri SHIFT tuşuna iki kere basmaktır. Bu alışkanlığımıza Visual Studio Code&rsquo;da da devam edebiliriz.</p>]]></description>
 </item>
 <item>
     <title>Nginx - 413 Request Entity Too Large Hatası</title>
-    <link>https://dizdar.dev/nginx-413-request-entity-too-large-hatasi/</link>
+    <link>https://dizdar.dev/2023/nginx-413-request-entity-too-large-hatasi/</link>
     <pubDate>Mon, 29 May 2023 10:52:10 &#43;0300</pubDate>
     <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/nginx-413-request-entity-too-large-hatasi/</guid>
+    <guid>https://dizdar.dev/2023/nginx-413-request-entity-too-large-hatasi/</guid>
     <description><![CDATA[<p>Ubuntu server üzerinde çalışan bir uygulamamda klasik CRUD işlemleri yapılırken, form data ile giden veriler sonunda başlıktaki hatayı aldım. Kullanıcı sisteme 1.2MB büyüklüğünde bir PDF
 yüklemeye çalışmış.</p>]]></description>
 </item>
 <item>
     <title>Apple Silicon işlemcili bilgisayarda PHP ve XDebug kurulumu macerası</title>
-    <link>https://dizdar.dev/apple-silicon-uzerinde-php-xdebug-kurulumu/</link>
+    <link>https://dizdar.dev/2023/apple-silicon-uzerinde-php-xdebug-kurulumu/</link>
     <pubDate>Tue, 07 Feb 2023 15:46:21 &#43;0300</pubDate>
     <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/apple-silicon-uzerinde-php-xdebug-kurulumu/</guid>
+    <guid>https://dizdar.dev/2023/apple-silicon-uzerinde-php-xdebug-kurulumu/</guid>
     <description><![CDATA[<p>Geçenlerde Laravel projelerine merak sardım. Hızlıca auth sistemleri oluşturmak, direkt rest api destekli kod yazmak epey keyifli. Neyse bu başka yazıların konusu.
 Laravel yazarken debug yapmak için <em><strong>dd</strong></em> ya da <em><strong>ddd</strong></em> yapmak epey işlevsel sonuçlar döndürüyor ama yine de insan IDE içerisinden debug pointler ile akışı takip etme ihtiyacı
 duyuyor. Bunun için de XDebug kurmak gerekliymiş.</p>]]></description>
 </item>
 <item>
     <title>Windows Terminal’den uygulama güncellemek</title>
-    <link>https://dizdar.dev/windows-terminalden-uygulama-guncellemek/</link>
+    <link>https://dizdar.dev/2023/windows-terminalden-uygulama-guncellemek/</link>
     <pubDate>Fri, 27 Jan 2023 14:57:05 &#43;0300</pubDate>
     <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/windows-terminalden-uygulama-guncellemek/</guid>
-    <description><![CDATA[Ubuntu kullananlar bilir, apt update ve apt upgrade çok sık yazdığımız komutlardır. Bunlar uygulamaları güncellemek için kullanılır. Malum Windows son zamanlarda WSL falan derken epey yanladı Linux cephesine 🙂 Şimdi de bu komut satırından güncelleme topuna girmiş gibi görünüyor.
-Nasıl yapıyoruz peki? Powershell’i açıp, “winget upgrade” yazıp enter’layın.]]></description>
+    <guid>https://dizdar.dev/2023/windows-terminalden-uygulama-guncellemek/</guid>
+    <description><![CDATA[<p>Ubuntu kullananlar bilir, apt update ve apt upgrade çok sık yazdığımız komutlardır. Bunlar uygulamaları güncellemek için kullanılır.
+Malum Windows son zamanlarda WSL falan derken epey yanladı Linux cephesine 🙂 Şimdi de bu komut satırından güncelleme topuna girmiş gibi görünüyor.</p>
+<p>Nasıl yapıyoruz peki? Powershell’i açıp, <strong>“winget upgrade”</strong> yazıp enter’layın.</p>
+<figure>
+</figure>]]></description>
 </item>
 <item>
     <title>Flutter Telefon Araması Yaptırmak</title>
-    <link>https://dizdar.dev/flutter-telefon-aramasi-yaptirmak/</link>
+    <link>https://dizdar.dev/2023/flutter-telefon-aramasi-yaptirmak/</link>
     <pubDate>Fri, 27 Jan 2023 14:15:22 &#43;0300</pubDate>
     <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/flutter-telefon-aramasi-yaptirmak/</guid>
+    <guid>https://dizdar.dev/2023/flutter-telefon-aramasi-yaptirmak/</guid>
     <description><![CDATA[<p>Geçenlerde bir proje için modelden gelen numarayı arama ihtiyacı doğdu. Sonrasında araştırınca url launcher paketi ile bunun gerçekleştirildiğini gördüm.
 Hatta paket sadece arama yapmak için değil, adı gibi tüm url açma işlemleri için kullanılıyor. Örn: web linkleri açmak, sms atmak, e-mail göndermek gibi.</p>]]></description>
 </item>
 <item>
     <title>Yeni Django Projesine Başlamak</title>
-    <link>https://dizdar.dev/yeni-django-projesine-baslamak/</link>
+    <link>https://dizdar.dev/2023/yeni-django-projesine-baslamak/</link>
     <pubDate>Fri, 27 Jan 2023 13:52:29 &#43;0300</pubDate>
     <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/yeni-django-projesine-baslamak/</guid>
+    <guid>https://dizdar.dev/2023/yeni-django-projesine-baslamak/</guid>
     <description><![CDATA[<p>Herkese selam, bu yazı aslında kendime not gibi olacak çünkü her yeni projeye başlarken komutları biliyor da
 olsam teyit etmek amaçlı dokümantasyonlardan kontrol ediyorum. Bu yüzden derli toplu bir şekilde blogta dursun istedim.</p>]]></description>
 </item>
 <item>
     <title>Python: Ayın Son Gününü Bulmak</title>
-    <link>https://dizdar.dev/python-ayin-son-gununu-bulmak/</link>
+    <link>https://dizdar.dev/2023/python-ayin-son-gununu-bulmak/</link>
     <pubDate>Fri, 27 Jan 2023 13:49:23 &#43;0300</pubDate>
     <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/python-ayin-son-gununu-bulmak/</guid>
+    <guid>https://dizdar.dev/2023/python-ayin-son-gununu-bulmak/</guid>
     <description><![CDATA[<p>Bir iş için girilen bir ayın son gününü bulmam gerekti. Kendime not olsun diye buraya da ekleyeyim istedim.</p>]]></description>
 </item>
 <item>
     <title>Django: Veritabanını Resetlemek</title>
-    <link>https://dizdar.dev/django-veritabanini-resetlemek/</link>
+    <link>https://dizdar.dev/2023/django-veritabanini-resetlemek/</link>
     <pubDate>Fri, 27 Jan 2023 13:41:55 &#43;0300</pubDate>
     <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/django-veritabanini-resetlemek/</guid>
+    <guid>https://dizdar.dev/2023/django-veritabanini-resetlemek/</guid>
     <description><![CDATA[<p>Bir proje olgunlaşırken gerek db model üzerinden gerekse data üzerinde sürekli değişiklikler oluyor ve bir yerden sonra test için veri çok anlamsız hâle gelebiliyor. Bu gibi durumlarda veritabanınızı resetlemek (sıfırlamak) ihtiyacı doğabilir. Bunun için birkaç farklı yöntem bulunuyor.</p>]]></description>
 </item>
 <item>
     <title>MongoDB&#39;ye Uzaktan Erişim Vermek</title>
-    <link>https://dizdar.dev/mongodb-ye-uzaktan-erisim-vermek/</link>
+    <link>https://dizdar.dev/2023/mongodb-ye-uzaktan-erisim-vermek/</link>
     <pubDate>Fri, 27 Jan 2023 13:25:01 &#43;0300</pubDate>
     <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/mongodb-ye-uzaktan-erisim-vermek/</guid>
+    <guid>https://dizdar.dev/2023/mongodb-ye-uzaktan-erisim-vermek/</guid>
     <description><![CDATA[<p>Windows sunucuda çalıştırdığımız MongoDB’ye uzaktan erişmemiz gerekti. Nasıl yapılır diye araştırırken, buraya da not alayım istedim.</p>]]></description>
-</item>
-<item>
-    <title>Visual Studio Code koyu tema/açık tema ayarı yapmak</title>
-    <link>https://dizdar.dev/vs-code-koyu-acik-tema-ayari-yapmak/</link>
-    <pubDate>Fri, 26 Nov 2021 16:06:59 &#43;0300</pubDate>
-    <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/vs-code-koyu-acik-tema-ayari-yapmak/</guid>
-    <description><![CDATA[Bir önceki yazımda belirttiğim Windows’ta koyu/açık tema ayarını otomatikleştirdikten sonra Visual Studio Code için de bu özellik bir ihtiyaç haline geldi. Gün içinde yansımaları vb. engellemek gece ise gözümüzü daha az yormak için bunu nasıl yapabiliriz diye araştırırken meğer Visual Studio Code’un kendi içinde böyle bir ayar olduğunu fark ettim.
-Peki nasıl yapacağız? Visual Studio Code’da ayarları açıp, arama kutusuna auto detect yazarak aratalım.
-Yukarıdaki görselde görüleceği üzere gelen ayarlardan Windows: Auto Detect Color Scheme seçeneğini işaretleyelim.]]></description>
 </item>
 </channel>
 </rss>

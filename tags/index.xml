@@ -1,0 +1,87 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Etiket - mustafa dizdar - blog</title>
+        <link>https://dizdar.dev/tags/</link>
+        <description>Tags - Etiket - mustafa dizdar - blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Fri, 14 Nov 2025 00:32:06 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Oracle</title>
+    <link>https://dizdar.dev/tags/oracle/</link>
+    <pubDate>Fri, 14 Nov 2025 00:32:06 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/tags/oracle/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Visual Studio Code</title>
+    <link>https://dizdar.dev/tags/visual-studio-code/</link>
+    <pubDate>Mon, 29 May 2023 11:01:51 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/tags/visual-studio-code/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Nginx</title>
+    <link>https://dizdar.dev/tags/nginx/</link>
+    <pubDate>Mon, 29 May 2023 10:52:10 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/tags/nginx/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Ubuntu</title>
+    <link>https://dizdar.dev/tags/ubuntu/</link>
+    <pubDate>Mon, 29 May 2023 10:52:10 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/tags/ubuntu/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Php Debugger</title>
+    <link>https://dizdar.dev/tags/php-debugger/</link>
+    <pubDate>Tue, 07 Feb 2023 15:46:21 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/tags/php-debugger/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Xdebug</title>
+    <link>https://dizdar.dev/tags/xdebug/</link>
+    <pubDate>Tue, 07 Feb 2023 15:46:21 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/tags/xdebug/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Cmd</title>
+    <link>https://dizdar.dev/tags/cmd/</link>
+    <pubDate>Fri, 27 Jan 2023 14:57:05 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/tags/cmd/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Terminal</title>
+    <link>https://dizdar.dev/tags/terminal/</link>
+    <pubDate>Fri, 27 Jan 2023 14:57:05 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/tags/terminal/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Mobil Programlama</title>
+    <link>https://dizdar.dev/tags/mobil-programlama/</link>
+    <pubDate>Fri, 27 Jan 2023 14:15:22 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/tags/mobil-programlama/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Python</title>
+    <link>https://dizdar.dev/tags/python/</link>
+    <pubDate>Fri, 27 Jan 2023 13:52:29 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/tags/python/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
