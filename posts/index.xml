@@ -3,7 +3,41 @@
         <title>Tüm İçerikler - mustafa dizdar - blog</title>
         <link>https://dizdar.dev/posts/</link>
         <description>Tüm İçerikler | mustafa dizdar - blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Fri, 14 Nov 2025 00:32:06 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Mon, 24 Nov 2025 23:47:35 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>[Dotnet] Program.cs dosyasındakı DI&#39;ları toparlamak</title>
+    <link>https://dizdar.dev/2025/dotnet-program-cs-dosyasindaki-di-lari-toparlamak/</link>
+    <pubDate>Mon, 24 Nov 2025 23:47:35 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/2025/dotnet-program-cs-dosyasindaki-di-lari-toparlamak/</guid>
+    <description><![CDATA[<p>Kod yazarken özellikle C# gibi bir OOP dil kullanınca her şey derli toplu olsun istiyorum. Çalıştığım projede Program.cs dosyasının Service katmanından eklenen Dependency Injection&rsquo;larının epey kalabalık olması ve daha da eklenecek şeylerin olması sinirimi bozdu.</p>
+<h3 id="programcs-dosyası-ne-işe-yarıyor">Program.cs dosyası ne işe yarıyor?</h3>
+<p>.NET projelerinde Program.cs, uygulamanın başlangıç noktasıdır (entry point). Uygulamanın çalıştığında ilk olarak buradaki Main metodu veya WebApplication yapılandırması çalışır. Özetle;</p>
+<ul>
+<li>Uygulamanın giriş noktasını tanımlar</li>
+<li>DI Container (Dependency Injection) servislerini burada tanımlarsın</li>
+<li>Middleware pipeline burada oluşturulur</li>
+<li>Uygulama ayarlarını yükler (appsettings.json vs.)</li>
+<li>Web server (Kestrel) burada başlatılır</li>
+</ul>
+<h3 id="kötü-vaziyet">Kötü vaziyet</h3>
+<div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
+    <div class="code-header language-c#">
+        <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
+        <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
+        <span class="copy" title="Panoya kopyala"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
+    </div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl"><span class="n">builder</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">AddScoped</span><span class="p">(</span><span class="k">typeof</span><span class="p">(</span><span class="n">IRepositoryAsync</span><span class="p">&lt;&gt;),</span> <span class="k">typeof</span><span class="p">(</span><span class="n">RepositoryAsync</span><span class="p">&lt;&gt;));</span>
+</span></span><span class="line"><span class="cl"><span class="n">builder</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">AddScoped</span><span class="p">(</span><span class="k">typeof</span><span class="p">(</span><span class="n">IService</span><span class="p">&lt;&gt;),</span> <span class="k">typeof</span><span class="p">(</span><span class="n">Service</span><span class="p">&lt;&gt;));</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">builder</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">AddScoped</span><span class="p">&lt;</span><span class="n">BilmemNeService</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl"><span class="n">builder</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">AddScoped</span><span class="p">&lt;</span><span class="n">BilmemNeGenelService</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl"><span class="n">builder</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">AddScoped</span><span class="p">&lt;</span><span class="n">BilmemNeMobilBildirimService</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">builder</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">AddScoped</span><span class="p">&lt;</span><span class="n">IDegisikServis</span><span class="p">,</span> <span class="n">DegisikServis</span><span class="p">&gt;();</span>
+</span></span><span class="line"><span class="cl"><span class="n">builder</span><span class="p">.</span><span class="n">Services</span><span class="p">.</span><span class="n">AddScoped</span><span class="p">&lt;</span><span class="n">IBaskaBirService</span><span class="p">,</span> <span class="n">BaskaBirService</span><span class="p">&gt;();</span></span></span></code></pre></div></div>
+<h3 id="çözüm">Çözüm</h3>
+<p>Hal böyle olunca projede bir DependencyInjections klasörü açmak gerekti. İçine modül bazlı bir yapı kurdum.</p>]]></description>
+</item>
+<item>
     <title>Veritabaninda Bir Alani Uppercase Yapma Vakasi</title>
     <link>https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/</link>
     <pubDate>Fri, 14 Nov 2025 00:32:06 &#43;0300</pubDate>
@@ -84,14 +118,6 @@ olsam teyit etmek amaçlı dokümantasyonlardan kontrol ediyorum. Bu yüzden der
     <author>mstfdzdr</author>
     <guid>https://dizdar.dev/2023/django-veritabanini-resetlemek/</guid>
     <description><![CDATA[<p>Bir proje olgunlaşırken gerek db model üzerinden gerekse data üzerinde sürekli değişiklikler oluyor ve bir yerden sonra test için veri çok anlamsız hâle gelebiliyor. Bu gibi durumlarda veritabanınızı resetlemek (sıfırlamak) ihtiyacı doğabilir. Bunun için birkaç farklı yöntem bulunuyor.</p>]]></description>
-</item>
-<item>
-    <title>MongoDB&#39;ye Uzaktan Erişim Vermek</title>
-    <link>https://dizdar.dev/2023/mongodb-ye-uzaktan-erisim-vermek/</link>
-    <pubDate>Fri, 27 Jan 2023 13:25:01 &#43;0300</pubDate>
-    <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/2023/mongodb-ye-uzaktan-erisim-vermek/</guid>
-    <description><![CDATA[<p>Windows sunucuda çalıştırdığımız MongoDB’ye uzaktan erişmemiz gerekti. Nasıl yapılır diye araştırırken, buraya da not alayım istedim.</p>]]></description>
 </item>
 </channel>
 </rss>

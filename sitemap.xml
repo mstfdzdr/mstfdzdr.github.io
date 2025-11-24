@@ -2,13 +2,17 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://dizdar.dev/categories/</loc><lastmod>2025-11-14T00:32:06&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://dizdar.dev/</loc><lastmod>2025-11-14T00:32:06&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://dizdar.dev/tags/oracle/</loc><lastmod>2025-11-14T00:32:06&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://dizdar.dev/posts/</loc><lastmod>2025-11-14T00:32:06&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://dizdar.dev/tags/</loc><lastmod>2025-11-14T00:32:06&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://dizdar.dev/categories/veritabani/</loc><lastmod>2025-11-14T00:32:06&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/</loc><lastmod>2025-11-14T00:32:06&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/2025/dotnet-program-cs-dosyasindaki-di-lari-toparlamak/</loc><lastmod>2025-11-24T23:47:35&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/tags/c-sharp/</loc><lastmod>2025-11-24T23:47:35&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/categories/</loc><lastmod>2025-11-24T23:47:35&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/tags/dependency-injection/</loc><lastmod>2025-11-24T23:47:35&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/categories/dotnet/</loc><lastmod>2025-11-24T23:47:35&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/</loc><lastmod>2025-11-24T23:47:35&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/posts/</loc><lastmod>2025-11-24T23:47:35&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/tags/</loc><lastmod>2025-11-24T23:47:35&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://dizdar.dev/tags/oracle/</loc><lastmod>2025-11-14T00:32:06&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://dizdar.dev/categories/veritaban%C4%B1/</loc><lastmod>2025-11-14T00:32:06&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://dizdar.dev/2025/veritabaninda-bir-alani-uppercase-yapma-vakasi/</loc><lastmod>2025-11-14T00:32:06&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://dizdar.dev/categories/nas%C4%B1l-yap%C4%B1l%C4%B1r/</loc><lastmod>2023-05-29T11:01:51&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/tags/visual-studio-code/</loc><lastmod>2023-05-29T11:01:51&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/2023/visual-studio-code-ozel-tus-kombinasyonlari-atama/</loc><lastmod>2023-05-29T11:01:51&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -32,12 +36,11 @@
             <loc>https://dizdar.dev/categories/python/</loc><lastmod>2023-01-27T13:49:23&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/2023/python-ayin-son-gununu-bulmak/</loc><lastmod>2023-01-27T13:49:23&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/2023/django-veritabanini-resetlemek/</loc><lastmod>2023-01-27T13:41:55&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://dizdar.dev/about/</loc><lastmod>2025-11-01T18:22:55&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://dizdar.dev/categories/mustafa-dizdar-kimdir/</loc><lastmod>2025-11-01T18:22:55&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://dizdar.dev/about/</loc><lastmod>2025-11-01T18:22:55&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://dizdar.dev/categories/mustafa-dizdar-kimdir/</loc><lastmod>2025-11-01T18:22:55&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
             <loc>https://dizdar.dev/tags/mongodb/</loc><lastmod>2023-01-27T13:25:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/2023/mongodb-ye-uzaktan-erisim-vermek/</loc><lastmod>2023-01-27T13:25:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/tags/remote-access/</loc><lastmod>2023-01-27T13:25:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://dizdar.dev/categories/veritaban%C4%B1/</loc><lastmod>2023-01-27T13:25:01&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/2021/vs-code-koyu-acik-tema-ayari-yapmak/</loc><lastmod>2023-01-30T16:06:59&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/tags/apache/</loc><lastmod>2023-01-30T13:23:30&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://dizdar.dev/tags/localhost/</loc><lastmod>2023-01-30T13:23:30&#43;03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

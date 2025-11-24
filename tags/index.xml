@@ -3,7 +3,23 @@
         <title>Tags - Etiket - mustafa dizdar - blog</title>
         <link>https://dizdar.dev/tags/</link>
         <description>Tags - Etiket - mustafa dizdar - blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Fri, 14 Nov 2025 00:32:06 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Mon, 24 Nov 2025 23:47:35 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>C Sharp</title>
+    <link>https://dizdar.dev/tags/c-sharp/</link>
+    <pubDate>Mon, 24 Nov 2025 23:47:35 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/tags/c-sharp/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Dependency Injection</title>
+    <link>https://dizdar.dev/tags/dependency-injection/</link>
+    <pubDate>Mon, 24 Nov 2025 23:47:35 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/tags/dependency-injection/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Oracle</title>
     <link>https://dizdar.dev/tags/oracle/</link>
     <pubDate>Fri, 14 Nov 2025 00:32:06 &#43;0300</pubDate>
@@ -65,22 +81,6 @@
     <pubDate>Fri, 27 Jan 2023 14:57:05 &#43;0300</pubDate>
     <author>mstfdzdr</author>
     <guid>https://dizdar.dev/tags/terminal/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Mobil Programlama</title>
-    <link>https://dizdar.dev/tags/mobil-programlama/</link>
-    <pubDate>Fri, 27 Jan 2023 14:15:22 &#43;0300</pubDate>
-    <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/tags/mobil-programlama/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Python</title>
-    <link>https://dizdar.dev/tags/python/</link>
-    <pubDate>Fri, 27 Jan 2023 13:52:29 &#43;0300</pubDate>
-    <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/tags/python/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

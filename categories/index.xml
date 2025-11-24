@@ -3,12 +3,20 @@
         <title>Categories - Kategori - mustafa dizdar - blog</title>
         <link>https://dizdar.dev/categories/</link>
         <description>Categories - Kategori - mustafa dizdar - blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Fri, 14 Nov 2025 00:32:06 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>Veritabani</title>
-    <link>https://dizdar.dev/categories/veritabani/</link>
+        <generator>Hugo -- gohugo.io</generator><language>tr</language><lastBuildDate>Mon, 24 Nov 2025 23:47:35 &#43;0300</lastBuildDate><atom:link href="https://dizdar.dev/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Dotnet</title>
+    <link>https://dizdar.dev/categories/dotnet/</link>
+    <pubDate>Mon, 24 Nov 2025 23:47:35 &#43;0300</pubDate>
+    <author>mstfdzdr</author>
+    <guid>https://dizdar.dev/categories/dotnet/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Veritabanı</title>
+    <link>https://dizdar.dev/categories/veritaban%C4%B1/</link>
     <pubDate>Fri, 14 Nov 2025 00:32:06 &#43;0300</pubDate>
     <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/categories/veritabani/</guid>
+    <guid>https://dizdar.dev/categories/veritaban%C4%B1/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -65,14 +73,6 @@
     <pubDate>Fri, 27 Jan 2023 13:41:55 &#43;0300</pubDate>
     <author>mstfdzdr</author>
     <guid>https://dizdar.dev/categories/mustafa-dizdar-kimdir/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>Veritabanı</title>
-    <link>https://dizdar.dev/categories/veritaban%C4%B1/</link>
-    <pubDate>Fri, 27 Jan 2023 13:25:01 &#43;0300</pubDate>
-    <author>mstfdzdr</author>
-    <guid>https://dizdar.dev/categories/veritaban%C4%B1/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
